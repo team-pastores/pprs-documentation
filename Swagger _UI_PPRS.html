@@ -1,0 +1,3933 @@
+<!DOCTYPE html>
+<!-- saved from url=(0077)http://localhost:8085/swagger-ui.html#!/user-controller/deleteUserUsingDELETE -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>Swagger UI</title>
+  <link rel="icon" type="image/png" href="http://localhost:8085/webjars/springfox-swagger-ui/images/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="http://localhost:8085/webjars/springfox-swagger-ui/images/favicon-16x16.png" sizes="16x16">
+  <link href="./Swagger _UI_PPRS_files/typography.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="./Swagger _UI_PPRS_files/reset.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="./Swagger _UI_PPRS_files/screen.css" media="screen" rel="stylesheet" type="text/css">
+  <link href="./Swagger _UI_PPRS_files/reset.css" media="print" rel="stylesheet" type="text/css">
+  <link href="./Swagger _UI_PPRS_files/print.css" media="print" rel="stylesheet" type="text/css">
+
+  <script src="./Swagger _UI_PPRS_files/object-assign-pollyfill.js.download" type="text/javascript"></script>
+  <script src="./Swagger _UI_PPRS_files/jquery-1.8.0.min.js.download" type="text/javascript"></script>
+  <script src="./Swagger _UI_PPRS_files/jquery.slideto.min.js.download" type="text/javascript"></script>
+  <script src="./Swagger _UI_PPRS_files/jquery.wiggle.min.js.download" type="text/javascript"></script>
+  <script src="./Swagger _UI_PPRS_files/jquery.ba-bbq.min.js.download" type="text/javascript"></script>
+  <script src="./Swagger _UI_PPRS_files/handlebars-4.0.5.js.download" type="text/javascript"></script>
+  <script src="./Swagger _UI_PPRS_files/lodash.min.js.download" type="text/javascript"></script>
+  <script src="./Swagger _UI_PPRS_files/backbone-min.js.download" type="text/javascript"></script>
+  <script src="./Swagger _UI_PPRS_files/swagger-ui.min.js.download" type="text/javascript"></script>
+  <script src="./Swagger _UI_PPRS_files/highlight.9.1.0.pack.js.download" type="text/javascript"></script>
+  <script src="./Swagger _UI_PPRS_files/highlight.9.1.0.pack_extended.js.download" type="text/javascript"></script>
+  <script src="./Swagger _UI_PPRS_files/jsoneditor.min.js.download" type="text/javascript"></script>
+  <script src="./Swagger _UI_PPRS_files/marked.js.download" type="text/javascript"></script>
+  <script src="./Swagger _UI_PPRS_files/swagger-oauth.js.download" type="text/javascript"></script>
+
+  <script src="./Swagger _UI_PPRS_files/springfox.js.download" type="text/javascript"></script>
+</head>
+
+<body class="swagger-section">
+<div id="header">
+  <div class="swagger-ui-wrap">
+    <a id="logo" ><img class="logo__img" alt="swagger" height="30" width="30" src="./Swagger _UI_PPRS_files/logo_small.png"><span class="logo__title">swagger</span></a>
+    <form id="api_selector">
+      <div class="input">
+        <select id="select_baseUrl" name="select_baseUrl"><option value="http://localhost:8085/v2/api-docs">default (/v2/api-docs)</option></select><input placeholder="http://example.com/api" id="input_baseUrl" name="baseUrl" type="text" style="display: none;"></div>
+      <div id="auth_container"></div>
+      <div class="input"><a id="explore" class="header__btn" data-sw-translate="">Explore</a></div>
+    </form>
+  </div>
+</div>
+
+<div id="message-bar" class="swagger-ui-wrap message-success" data-sw-translate=""></div>
+<div id="swagger-ui-container" class="swagger-ui-wrap"><div class="info" id="api_info">
+  <div class="info_title">Spring Boot REST API</div>
+  <div class="info_description markdown"><p>"Spring Boot REST API for Online Store"</p>
+</div>
+  
+  <div><div class="info_name" style="display: inline" data-sw-translate="">Created by </div> John Thompson</div>
+  <div class="info_url" data-sw-translate="">See more at <a >https://springframework.guru/about/</a></div>
+  <div class="info_email"><a target="_parent"  data-sw-translate="">Contact the developer</a></div>
+  <div class="info_license"><a target="_blank" >Apache License Version 2.0</a></div>
+</div>
+<div class="container" id="resources_container">
+  <div class="authorize-wrapper"></div>
+
+  <ul id="resources"><li id="resource_convocatory-controller" class="resource active"><div class="heading">
+  <h2>
+    <a class="toggleEndpointList" data-id="convocatory-controller">convocatory-controller</a>  : Convocatory Controller
+  </h2>
+  <ul class="options">
+    <li>
+      <a id="endpointListTogger_convocatory-controller" class="toggleEndpointList" data-id="convocatory-controller" data-sw-translate="">Show/Hide</a>
+    </li>
+    <li>
+      <a  class="collapseResource" data-id="convocatory-controller" data-sw-translate="">
+        List Operations
+      </a>
+    </li>
+    <li>
+      <a class="expandResource" data-id="convocatory-controller" data-sw-translate="">
+        Expand Operations
+      </a>
+    </li>
+  </ul>
+</div>
+<ul class="endpoints" id="convocatory-controller_endpoint_list" style="">
+
+<li class="endpoint">  <ul class="operations">
+    <li class="get operation" id="convocatory-controller_listConvocatoriesUsingGET">
+      <div class="heading">
+        <h3>
+          <span class="http_method">
+          <a class="toggleOperation">get</a>
+          </span>
+          <span class="path">
+          <a class="toggleOperation ">/convocatories</a>
+          </span>
+        </h3>
+        <ul class="options">
+          <li>
+          <a class="toggleOperation"><span class="markdown"><p>listConvocatories</p>
+</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="convocatory-controller_listConvocatoriesUsingGET_content" style="">
+          <div class="response-class">
+            <h4><span data-sw-translate="">Response Class</span> (<span data-sw-translate="">Status</span> 200)</h4>
+              <div class="markdown"><p>OK</p>
+</div>
+            <p><span class="model-signature"><div>
+<div>
+<ul class="signature-nav">
+  <li><a class="description-link" data-sw-translate="">Model</a></li>
+  <li><a class="snippet-link selected" data-sw-translate="">Example Value</a></li>
+</ul>
+<div>
+
+<div class="signature-container">
+  <div class="description" style="display: none;">
+      <span class="strong">Inline Model [</span><div>Inline Model 1</div><span class="strong">]</span><span class="strong">Inline Model 1 {</span><div><span class="propName ">deadline</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">department</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">id</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">subjects</span> (<span class="propType">Array[Inline Model 2]</span>, <span class="propOptKey">optional</span>)</div><span class="strong">}</span><span class="strong">Inline Model 2 {</span><span class="strong">}</span>
+  </div>
+
+  <div class="snippet" style="display: block;">
+      <div class="snippet_json" style="display: block;">
+        <pre><code class="hljs json">[
+  {
+    "<span class="hljs-attr">deadline</span>": <span class="hljs-string">"2018-11-28T22:39:00.687Z"</span>,
+    "<span class="hljs-attr">department</span>": <span class="hljs-string">"string"</span>,
+    "<span class="hljs-attr">id</span>": <span class="hljs-string">"string"</span>,
+    "<span class="hljs-attr">subjects</span>": [
+      {}
+    ]
+  }
+]</code></pre>
+        
+      </div>
+  </div>
+</div>
+</div></div></div></span></p>
+            <br>
+            <div class="response-content-type"><div><label data-sw-translate="" for="rct0.5177223195496179">Response Content Type</label>
+<select name="responseContentType" id="rct0.5177223195496179">
+  <option value="*/*">*/*</option>
+</select>
+</div></div>
+            </div>
+
+
+        <form accept-charset="UTF-8" class="sandbox">
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Parameters</h4>
+          <table class="fullwidth parameters">
+          <thead>
+            <tr>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter</th>
+            <th style="width: 310px; max-width: 310px" data-sw-translate="">Value</th>
+            <th style="width: 200px; max-width: 200px" data-sw-translate="">Description</th>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter Type</th>
+            <th style="width: 220px; max-width: 230px" data-sw-translate="">Data Type</th>
+            </tr>
+          </thead>
+          <tbody class="operation-params">
+
+          <tr><td class="code"><label for="mdepartment0.5089953612218066">department</label></td>
+<td>
+
+<input class="parameter" minlength="0" name="department" placeholder="" id="mdepartment0.5089953612218066" type="text" value="">
+</td>
+<td class="markdown"><p>department</p>
+</td>
+<td>query</td>
+<td>
+	<span class="model-signature">string</span>
+</td>
+</tr></tbody>
+          </table>
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Response Messages</h4>
+          <table class="fullwidth response-messages">
+            <thead>
+            <tr>
+              <th data-sw-translate="">HTTP Status Code</th>
+              <th data-sw-translate="">Reason</th>
+              <th data-sw-translate="">Response Model</th>
+              <th data-sw-translate="">Headers</th>
+            </tr>
+            </thead>
+            <tbody class="operation-status">
+            <tr><td width="15%" class="code">401</td>
+<td class="markdown"><p>Unauthorized</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">403</td>
+<td class="markdown"><p>Forbidden</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">404</td>
+<td class="markdown"><p>Not Found</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr></tbody>
+          </table>
+          <div class="sandbox_header">
+            <input class="submit" type="submit" value="Try it out!" data-sw-translate="">
+            <a class="response_hider" style="" data-sw-translate="">Hide Response</a>
+            <span class="response_throbber" style="display: none;"></span>
+          </div>
+        </form>
+        <div class="response" style="">
+          <h4 class="curl">Curl</h4>
+          <div class="block curl"><pre>curl -X GET --header 'Accept: application/json' 'http://localhost:8085/convocatories?department=string'</pre></div>
+          <h4 data-sw-translate="">Request URL</h4>
+          <div class="block request_url"><pre>http://localhost:8085/convocatories?department=string</pre></div>
+          <h4 data-sw-translate="">Request Headers</h4>
+          <div class="block request_headers"><pre>{<br>  "Accept": "*/*"<br>}</pre></div>
+          <h4 data-sw-translate="">Response Body</h4>
+          <div class="block response_body hljs json"><pre class="json"><code>[
+  {
+    "<span class="hljs-attr">id</span>": <span class="hljs-string">"string"</span>,
+    "<span class="hljs-attr">department</span>": <span class="hljs-string">"string"</span>,
+    "<span class="hljs-attr">deadline</span>": <span class="hljs-number">1543444740851</span>,
+    "<span class="hljs-attr">subjects</span>": [
+      {}
+    ]
+  }
+]</code></pre></div>
+          <h4 data-sw-translate="">Response Code</h4>
+          <div class="block response_code"><pre>200</pre></div>
+          <h4 data-sw-translate="">Response Headers</h4>
+          <div class="block response_headers"><pre>{<br>  "date": "Wed, 28 Nov 2018 22:42:45 GMT",<br>  "transfer-encoding": "chunked",<br>  "content-type": "application/json;charset=UTF-8"<br>}</pre></div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</li><li class="endpoint">  <ul class="operations">
+    <li class="post operation" id="convocatory-controller_saveConvocatoryUsingPOST">
+      <div class="heading">
+        <h3>
+          <span class="http_method">
+          <a class="toggleOperation">post</a>
+          </span>
+          <span class="path">
+          <a class="toggleOperation ">/convocatory</a>
+          </span>
+        </h3>
+        <ul class="options">
+          <li>
+          <a class="toggleOperation"><span class="markdown"><p>saveConvocatory</p>
+</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="convocatory-controller_saveConvocatoryUsingPOST_content" style="">
+
+
+        <form accept-charset="UTF-8" class="sandbox">
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Parameters</h4>
+          <table class="fullwidth parameters">
+          <thead>
+            <tr>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter</th>
+            <th style="width: 310px; max-width: 310px" data-sw-translate="">Value</th>
+            <th style="width: 200px; max-width: 200px" data-sw-translate="">Description</th>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter Type</th>
+            <th style="width: 220px; max-width: 230px" data-sw-translate="">Data Type</th>
+            </tr>
+          </thead>
+          <tbody class="operation-params">
+
+          <tr><td class="code required"><label for="mconvocatory0.43862675432545917">convocatory</label></td>
+<td>
+				<textarea class="body-textarea required" placeholder="(required)" name="convocatory" id="mconvocatory0.43862675432545917"></textarea>
+				<div class="editor_holder"></div>
+				<br>
+				<div class="parameter-content-type"><div><label for="pct0.013706213256735378" data-sw-translate="">Parameter content type:</label>
+<select name="parameterContentType" id="pct0.013706213256735378">
+  <option value="application/json">application/json</option>
+</select>
+</div></div>
+</td>
+<td>
+	<strong><span class="markdown"><p>convocatory</p>
+</span></strong>
+</td>
+<td>body</td>
+<td><span class="model-signature"><div>
+<div>
+<ul class="signature-nav">
+  <li><a class="description-link" data-sw-translate="">Model</a></li>
+  <li><a class="snippet-link selected" data-sw-translate="">Example Value</a></li>
+</ul>
+<div>
+
+<div class="signature-container">
+  <div class="description" style="display: none;">
+      <span class="strong">Convocatory {</span><div><span class="propName ">deadline</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">department</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">id</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">subjects</span> (<span class="propType">Array[Inline Model 1]</span>, <span class="propOptKey">optional</span>)</div><span class="strong">}</span><span class="strong">Inline Model 1 {</span><span class="strong">}</span>
+  </div>
+
+  <div class="snippet" style="display: block;">
+      <div class="snippet_json" style="display: block;">
+        <pre><code class="hljs json">{
+  "<span class="hljs-attr">deadline</span>": <span class="hljs-string">"2018-11-28T22:39:00.851Z"</span>,
+  "<span class="hljs-attr">department</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">id</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">subjects</span>": [
+    {}
+  ]
+}</code></pre>
+        <small class="notice" data-sw-translate=""></small>
+      </div>
+  </div>
+</div>
+</div></div></div></span></td>
+</tr></tbody>
+          </table>
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Response Messages</h4>
+          <table class="fullwidth response-messages">
+            <thead>
+            <tr>
+              <th data-sw-translate="">HTTP Status Code</th>
+              <th data-sw-translate="">Reason</th>
+              <th data-sw-translate="">Response Model</th>
+              <th data-sw-translate="">Headers</th>
+            </tr>
+            </thead>
+            <tbody class="operation-status">
+            <tr><td width="15%" class="code">201</td>
+<td class="markdown"><p>Created</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">401</td>
+<td class="markdown"><p>Unauthorized</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">403</td>
+<td class="markdown"><p>Forbidden</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">404</td>
+<td class="markdown"><p>Not Found</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr></tbody>
+          </table>
+          <div class="sandbox_header">
+            <input class="submit" type="submit" value="Try it out!" data-sw-translate="">
+            <a class="response_hider" style="" data-sw-translate="">Hide Response</a>
+            <span class="response_throbber" style="display: none;"></span>
+          </div>
+        </form>
+        <div class="response" style="">
+          <h4 class="curl">Curl</h4>
+          <div class="block curl"><pre>curl -X POST --header 'Content-Type: application/json' --header 'Accept: */*' -d '{ \ 
+   "deadline": "2018-11-28T22:39:00.851Z", \ 
+   "department": "string", \ 
+   "id": "string", \ 
+   "subjects": [ \ 
+     {} \ 
+   ] \ 
+ }' 'http://localhost:8085/convocatory'</pre></div>
+          <h4 data-sw-translate="">Request URL</h4>
+          <div class="block request_url"><pre>http://localhost:8085/convocatory</pre></div>
+          <h4 data-sw-translate="">Request Headers</h4>
+          <div class="block request_headers"><pre>{<br>  "Accept": "*/*"<br>}</pre></div>
+          <h4 data-sw-translate="">Response Body</h4>
+          <div class="block response_body hljs"><pre class="json"><code>no content</code></pre></div>
+          <h4 data-sw-translate="">Response Code</h4>
+          <div class="block response_code"><pre>201</pre></div>
+          <h4 data-sw-translate="">Response Headers</h4>
+          <div class="block response_headers"><pre>{<br>  "date": "Wed, 28 Nov 2018 22:43:21 GMT",<br>  "content-length": "0",<br>  "content-type": null<br>}</pre></div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</li><li class="endpoint">  <ul class="operations">
+    <li class="put operation" id="convocatory-controller_editConvocatoryUsingPUT">
+      <div class="heading">
+        <h3>
+          <span class="http_method">
+          <a class="toggleOperation">put</a>
+          </span>
+          <span class="path">
+          <a class="toggleOperation ">/convocatory</a>
+          </span>
+        </h3>
+        <ul class="options">
+          <li>
+          <a class="toggleOperation"><span class="markdown"><p>editConvocatory</p>
+</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="convocatory-controller_editConvocatoryUsingPUT_content" style="">
+
+
+        <form accept-charset="UTF-8" class="sandbox">
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Parameters</h4>
+          <table class="fullwidth parameters">
+          <thead>
+            <tr>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter</th>
+            <th style="width: 310px; max-width: 310px" data-sw-translate="">Value</th>
+            <th style="width: 200px; max-width: 200px" data-sw-translate="">Description</th>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter Type</th>
+            <th style="width: 220px; max-width: 230px" data-sw-translate="">Data Type</th>
+            </tr>
+          </thead>
+          <tbody class="operation-params">
+
+          <tr><td class="code required"><label for="mconvocatory0.45162262502155937">convocatory</label></td>
+<td>
+				<textarea class="body-textarea required" placeholder="(required)" name="convocatory" id="mconvocatory0.45162262502155937"></textarea>
+				<div class="editor_holder"></div>
+				<br>
+				<div class="parameter-content-type"><div><label for="pct0.3067418036686136" data-sw-translate="">Parameter content type:</label>
+<select name="parameterContentType" id="pct0.3067418036686136">
+  <option value="application/json">application/json</option>
+</select>
+</div></div>
+</td>
+<td>
+	<strong><span class="markdown"><p>convocatory</p>
+</span></strong>
+</td>
+<td>body</td>
+<td><span class="model-signature"><div>
+<div>
+<ul class="signature-nav">
+  <li><a class="description-link" data-sw-translate="">Model</a></li>
+  <li><a class="snippet-link selected" data-sw-translate="">Example Value</a></li>
+</ul>
+<div>
+
+<div class="signature-container">
+  <div class="description" style="display: none;">
+      <span class="strong">Convocatory {</span><div><span class="propName ">deadline</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">department</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">id</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">subjects</span> (<span class="propType">Array[Inline Model 1]</span>, <span class="propOptKey">optional</span>)</div><span class="strong">}</span><span class="strong">Inline Model 1 {</span><span class="strong">}</span>
+  </div>
+
+  <div class="snippet" style="display: block;">
+      <div class="snippet_json" style="display: block;">
+        <pre><code class="hljs json">{
+  "<span class="hljs-attr">deadline</span>": <span class="hljs-string">"2018-11-28T22:39:00.893Z"</span>,
+  "<span class="hljs-attr">department</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">id</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">subjects</span>": [
+    {}
+  ]
+}</code></pre>
+        <small class="notice" data-sw-translate=""></small>
+      </div>
+  </div>
+</div>
+</div></div></div></span></td>
+</tr></tbody>
+          </table>
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Response Messages</h4>
+          <table class="fullwidth response-messages">
+            <thead>
+            <tr>
+              <th data-sw-translate="">HTTP Status Code</th>
+              <th data-sw-translate="">Reason</th>
+              <th data-sw-translate="">Response Model</th>
+              <th data-sw-translate="">Headers</th>
+            </tr>
+            </thead>
+            <tbody class="operation-status">
+            <tr><td width="15%" class="code">200</td>
+<td class="markdown"><p>OK</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">201</td>
+<td class="markdown"><p>Created</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">401</td>
+<td class="markdown"><p>Unauthorized</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">403</td>
+<td class="markdown"><p>Forbidden</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">404</td>
+<td class="markdown"><p>Not Found</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr></tbody>
+          </table>
+          <div class="sandbox_header">
+            <input class="submit" type="submit" value="Try it out!" data-sw-translate="">
+            <a class="response_hider" style="" data-sw-translate="">Hide Response</a>
+            <span class="response_throbber" style="display: none;"></span>
+          </div>
+        </form>
+        <div class="response" style="">
+          <h4 class="curl">Curl</h4>
+          <div class="block curl"><pre>curl -X PUT --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ \ 
+   "deadline": "2018-11-28T22:39:00.893Z", \ 
+   "department": "string", \ 
+   "id": "string", \ 
+   "subjects": [ \ 
+     {} \ 
+   ] \ 
+ }' 'http://localhost:8085/convocatory'</pre></div>
+          <h4 data-sw-translate="">Request URL</h4>
+          <div class="block request_url"><pre>http://localhost:8085/convocatory</pre></div>
+          <h4 data-sw-translate="">Request Headers</h4>
+          <div class="block request_headers"><pre>{<br>  "Accept": "*/*"<br>}</pre></div>
+          <h4 data-sw-translate="">Response Body</h4>
+          <div class="block response_body hljs json"><pre class="json"><code>{
+  "<span class="hljs-attr">timestamp</span>": <span class="hljs-number">1543444978730</span>,
+  "<span class="hljs-attr">status</span>": <span class="hljs-number">400</span>,
+  "<span class="hljs-attr">error</span>": <span class="hljs-string">"Bad Request"</span>,
+  "<span class="hljs-attr">exception</span>": <span class="hljs-string">"org.springframework.web.bind.MethodArgumentNotValidException"</span>,
+  "<span class="hljs-attr">errors</span>": [
+    {
+      "<span class="hljs-attr">codes</span>": [
+        <span class="hljs-string">"Future.convocatory.deadline"</span>,
+        <span class="hljs-string">"Future.deadline"</span>,
+        <span class="hljs-string">"Future.java.util.Date"</span>,
+        <span class="hljs-string">"Future"</span>
+      ],
+      "<span class="hljs-attr">arguments</span>": [
+        {
+          "<span class="hljs-attr">codes</span>": [
+            <span class="hljs-string">"convocatory.deadline"</span>,
+            <span class="hljs-string">"deadline"</span>
+          ],
+          "<span class="hljs-attr">arguments</span>": <span class="hljs-literal">null</span>,
+          "<span class="hljs-attr">defaultMessage</span>": <span class="hljs-string">"deadline"</span>,
+          "<span class="hljs-attr">code</span>": <span class="hljs-string">"deadline"</span>
+        }
+      ],
+      "<span class="hljs-attr">defaultMessage</span>": <span class="hljs-string">"tiene que ser una fecha en el futuro"</span>,
+      "<span class="hljs-attr">objectName</span>": <span class="hljs-string">"convocatory"</span>,
+      "<span class="hljs-attr">field</span>": <span class="hljs-string">"deadline"</span>,
+      "<span class="hljs-attr">rejectedValue</span>": <span class="hljs-number">1543444740893</span>,
+      "<span class="hljs-attr">bindingFailure</span>": <span class="hljs-literal">false</span>,
+      "<span class="hljs-attr">code</span>": <span class="hljs-string">"Future"</span>
+    }
+  ],
+  "<span class="hljs-attr">message</span>": <span class="hljs-string">"Validation failed for object='convocatory'. Error count: 1"</span>,
+  "<span class="hljs-attr">path</span>": <span class="hljs-string">"/convocatory"</span>
+}</code></pre></div>
+          <h4 data-sw-translate="">Response Code</h4>
+          <div class="block response_code"><pre>400</pre></div>
+          <h4 data-sw-translate="">Response Headers</h4>
+          <div class="block response_headers"><pre>{<br>  "date": "Wed, 28 Nov 2018 22:42:58 GMT",<br>  "connection": "close",<br>  "transfer-encoding": "chunked",<br>  "content-type": "application/json;charset=UTF-8"<br>}</pre></div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</li><li class="endpoint">  <ul class="operations">
+    <li class="delete operation" id="convocatory-controller_deleteConvocatoryUsingDELETE">
+      <div class="heading">
+        <h3>
+          <span class="http_method">
+          <a class="toggleOperation">delete</a>
+          </span>
+          <span class="path">
+          <a class="toggleOperation ">/convocatory/{id}</a>
+          </span>
+        </h3>
+        <ul class="options">
+          <li>
+          <a class="toggleOperation"><span class="markdown"><p>deleteConvocatory</p>
+</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="convocatory-controller_deleteConvocatoryUsingDELETE_content" style="">
+
+
+        <form accept-charset="UTF-8" class="sandbox">
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Parameters</h4>
+          <table class="fullwidth parameters">
+          <thead>
+            <tr>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter</th>
+            <th style="width: 310px; max-width: 310px" data-sw-translate="">Value</th>
+            <th style="width: 200px; max-width: 200px" data-sw-translate="">Description</th>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter Type</th>
+            <th style="width: 220px; max-width: 230px" data-sw-translate="">Data Type</th>
+            </tr>
+          </thead>
+          <tbody class="operation-params">
+
+          <tr><td class="code required"><label for="mid0.7715222847362553">id</label></td>
+<td>
+<input class="parameter required" minlength="1" name="id" placeholder="(required)" id="mid0.7715222847362553" type="text" value=""></td>
+<td>
+	<strong><span class="markdown"><p>id</p>
+</span></strong>
+</td>
+<td>path</td>
+<td><span class="model-signature">string</span></td>
+</tr></tbody>
+          </table>
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Response Messages</h4>
+          <table class="fullwidth response-messages">
+            <thead>
+            <tr>
+              <th data-sw-translate="">HTTP Status Code</th>
+              <th data-sw-translate="">Reason</th>
+              <th data-sw-translate="">Response Model</th>
+              <th data-sw-translate="">Headers</th>
+            </tr>
+            </thead>
+            <tbody class="operation-status">
+            <tr><td width="15%" class="code">204</td>
+<td class="markdown"><p>No Content</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">401</td>
+<td class="markdown"><p>Unauthorized</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">403</td>
+<td class="markdown"><p>Forbidden</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr></tbody>
+          </table>
+          <div class="sandbox_header">
+            <input class="submit" type="submit" value="Try it out!" data-sw-translate="">
+            <a class="response_hider" style="" data-sw-translate="">Hide Response</a>
+            <span class="response_throbber" style="display: none;"></span>
+          </div>
+        </form>
+        <div class="response" style="">
+          <h4 class="curl">Curl</h4>
+          <div class="block curl"><pre>curl -X DELETE --header 'Accept: */*' 'http://localhost:8085/convocatory/string'</pre></div>
+          <h4 data-sw-translate="">Request URL</h4>
+          <div class="block request_url"><pre>http://localhost:8085/convocatory/string</pre></div>
+          <h4 data-sw-translate="">Request Headers</h4>
+          <div class="block request_headers"><pre>{<br>  "Accept": "*/*"<br>}</pre></div>
+          <h4 data-sw-translate="">Response Body</h4>
+          <div class="block response_body hljs"><pre class="json"><code>no content</code></pre></div>
+          <h4 data-sw-translate="">Response Code</h4>
+          <div class="block response_code"><pre>204</pre></div>
+          <h4 data-sw-translate="">Response Headers</h4>
+          <div class="block response_headers"><pre>{<br>  "date": "Wed, 28 Nov 2018 22:43:06 GMT",<br>  "content-type": null<br>}</pre></div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</li><li class="endpoint">  <ul class="operations">
+    <li class="get operation" id="convocatory-controller_showConvocatoryUsingGET">
+      <div class="heading">
+        <h3>
+          <span class="http_method">
+          <a class="toggleOperation">get</a>
+          </span>
+          <span class="path">
+          <a class="toggleOperation ">/convocatory/{id}</a>
+          </span>
+        </h3>
+        <ul class="options">
+          <li>
+          <a class="toggleOperation"><span class="markdown"><p>showConvocatory</p>
+</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="convocatory-controller_showConvocatoryUsingGET_content" style="">
+          <div class="response-class">
+            <h4><span data-sw-translate="">Response Class</span> (<span data-sw-translate="">Status</span> 200)</h4>
+              <div class="markdown"><p>OK</p>
+</div>
+            <p><span class="model-signature"><div>
+<div>
+<ul class="signature-nav">
+  <li><a class="description-link" data-sw-translate="">Model</a></li>
+  <li><a class="snippet-link selected" data-sw-translate="">Example Value</a></li>
+</ul>
+<div>
+
+<div class="signature-container">
+  <div class="description" style="display: none;">
+      <span class="strong">Convocatory {</span><div><span class="propName ">deadline</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">department</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">id</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">subjects</span> (<span class="propType">Array[Inline Model 1]</span>, <span class="propOptKey">optional</span>)</div><span class="strong">}</span><span class="strong">Inline Model 1 {</span><span class="strong">}</span>
+  </div>
+
+  <div class="snippet" style="display: block;">
+      <div class="snippet_json" style="display: block;">
+        <pre><code class="hljs json">{
+  "<span class="hljs-attr">deadline</span>": <span class="hljs-string">"2018-11-28T22:39:00.940Z"</span>,
+  "<span class="hljs-attr">department</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">id</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">subjects</span>": [
+    {}
+  ]
+}</code></pre>
+        
+      </div>
+  </div>
+</div>
+</div></div></div></span></p>
+            <br>
+            <div class="response-content-type"><div><label data-sw-translate="" for="rct0.7522244193212055">Response Content Type</label>
+<select name="responseContentType" id="rct0.7522244193212055">
+  <option value="*/*">*/*</option>
+</select>
+</div></div>
+            </div>
+
+
+        <form accept-charset="UTF-8" class="sandbox">
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Parameters</h4>
+          <table class="fullwidth parameters">
+          <thead>
+            <tr>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter</th>
+            <th style="width: 310px; max-width: 310px" data-sw-translate="">Value</th>
+            <th style="width: 200px; max-width: 200px" data-sw-translate="">Description</th>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter Type</th>
+            <th style="width: 220px; max-width: 230px" data-sw-translate="">Data Type</th>
+            </tr>
+          </thead>
+          <tbody class="operation-params">
+
+          <tr><td class="code required"><label for="mid0.47526641016996063">id</label></td>
+<td>
+<input class="parameter required" minlength="1" name="id" placeholder="(required)" id="mid0.47526641016996063" type="text" value=""></td>
+<td>
+	<strong><span class="markdown"><p>id</p>
+</span></strong>
+</td>
+<td>path</td>
+<td><span class="model-signature">string</span></td>
+</tr></tbody>
+          </table>
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Response Messages</h4>
+          <table class="fullwidth response-messages">
+            <thead>
+            <tr>
+              <th data-sw-translate="">HTTP Status Code</th>
+              <th data-sw-translate="">Reason</th>
+              <th data-sw-translate="">Response Model</th>
+              <th data-sw-translate="">Headers</th>
+            </tr>
+            </thead>
+            <tbody class="operation-status">
+            <tr><td width="15%" class="code">401</td>
+<td class="markdown"><p>Unauthorized</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">403</td>
+<td class="markdown"><p>Forbidden</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">404</td>
+<td class="markdown"><p>Not Found</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr></tbody>
+          </table>
+          <div class="sandbox_header">
+            <input class="submit" type="submit" value="Try it out!" data-sw-translate="">
+            <a class="response_hider" style="" data-sw-translate="">Hide Response</a>
+            <span class="response_throbber" style="display: none;"></span>
+          </div>
+        </form>
+        <div class="response" style="">
+          <h4 class="curl">Curl</h4>
+          <div class="block curl"><pre>curl -X GET --header 'Accept: application/json' 'http://localhost:8085/convocatory/string'</pre></div>
+          <h4 data-sw-translate="">Request URL</h4>
+          <div class="block request_url"><pre>http://localhost:8085/convocatory/string</pre></div>
+          <h4 data-sw-translate="">Request Headers</h4>
+          <div class="block request_headers"><pre>{<br>  "Accept": "*/*"<br>}</pre></div>
+          <h4 data-sw-translate="">Response Body</h4>
+          <div class="block response_body hljs json"><pre class="json"><code>{
+  "<span class="hljs-attr">id</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">department</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">deadline</span>": <span class="hljs-number">1543444740851</span>,
+  "<span class="hljs-attr">subjects</span>": [
+    {}
+  ]
+}</code></pre></div>
+          <h4 data-sw-translate="">Response Code</h4>
+          <div class="block response_code"><pre>200</pre></div>
+          <h4 data-sw-translate="">Response Headers</h4>
+          <div class="block response_headers"><pre>{<br>  "date": "Wed, 28 Nov 2018 22:43:34 GMT",<br>  "transfer-encoding": "chunked",<br>  "content-type": "application/json;charset=UTF-8"<br>}</pre></div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</li></ul>
+</li><li id="resource_form-controller" class="resource active"><div class="heading">
+  <h2>
+    <a class="toggleEndpointList" data-id="form-controller">form-controller</a>  : Form Controller
+  </h2>
+  <ul class="options">
+    <li>
+      <a id="endpointListTogger_form-controller" class="toggleEndpointList" data-id="form-controller" data-sw-translate="">Show/Hide</a>
+    </li>
+    <li>
+      <a class="collapseResource" data-id="form-controller" data-sw-translate="">
+        List Operations
+      </a>
+    </li>
+    <li>
+      <a class="expandResource" data-id="form-controller" data-sw-translate="">
+        Expand Operations
+      </a>
+    </li>
+  </ul>
+</div>
+<ul class="endpoints" id="form-controller_endpoint_list" style="">
+
+<li class="endpoint">  <ul class="operations">
+    <li class="post operation" id="form-controller_saveCurricularQualificationFormUsingPOST">
+      <div class="heading">
+        <h3>
+          <span class="http_method">
+          <a class="toggleOperation">post</a>
+          </span>
+          <span class="path">
+          <a class="toggleOperation ">/curricularQualificationForm</a>
+          </span>
+        </h3>
+        <ul class="options">
+          <li>
+          <a class="toggleOperation"><span class="markdown"><p>saveCurricularQualificationForm</p>
+</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="form-controller_saveCurricularQualificationFormUsingPOST_content" style="">
+
+
+        <form accept-charset="UTF-8" class="sandbox">
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Parameters</h4>
+          <table class="fullwidth parameters">
+          <thead>
+            <tr>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter</th>
+            <th style="width: 310px; max-width: 310px" data-sw-translate="">Value</th>
+            <th style="width: 200px; max-width: 200px" data-sw-translate="">Description</th>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter Type</th>
+            <th style="width: 220px; max-width: 230px" data-sw-translate="">Data Type</th>
+            </tr>
+          </thead>
+          <tbody class="operation-params">
+
+          <tr><td class="code required"><label for="mcurricularQualificationForm0.5292324630787351">curricularQualificationForm</label></td>
+<td>
+				<textarea class="body-textarea required" placeholder="(required)" name="curricularQualificationForm" id="mcurricularQualificationForm0.5292324630787351"></textarea>
+				<div class="editor_holder"></div>
+				<br>
+				<div class="parameter-content-type"><div><label for="pct0.24464452899624267" data-sw-translate="">Parameter content type:</label>
+<select name="parameterContentType" id="pct0.24464452899624267">
+  <option value="application/json">application/json</option>
+</select>
+</div></div>
+</td>
+<td>
+	<strong><span class="markdown"><p>curricularQualificationForm</p>
+</span></strong>
+</td>
+<td>body</td>
+<td><span class="model-signature"><div>
+<div>
+<ul class="signature-nav">
+  <li><a class="description-link" data-sw-translate="">Model</a></li>
+  <li><a class="snippet-link selected" data-sw-translate="">Example Value</a></li>
+</ul>
+<div>
+
+<div class="signature-container">
+  <div class="description" style="display: none;">
+      <span class="strong">CurricularQualificationForm {</span><div><span class="propName ">content</span> (<span class="propType">object</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">id</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>)</div><span class="strong">}</span>
+  </div>
+
+  <div class="snippet" style="display: block;">
+      <div class="snippet_json" style="display: block;">
+        <pre><code class="hljs json">{
+  "<span class="hljs-attr">content</span>": {},
+  "<span class="hljs-attr">id</span>": <span class="hljs-string">"string"</span>
+}</code></pre>
+        <small class="notice" data-sw-translate=""></small>
+      </div>
+  </div>
+</div>
+</div></div></div></span></td>
+</tr></tbody>
+          </table>
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Response Messages</h4>
+          <table class="fullwidth response-messages">
+            <thead>
+            <tr>
+              <th data-sw-translate="">HTTP Status Code</th>
+              <th data-sw-translate="">Reason</th>
+              <th data-sw-translate="">Response Model</th>
+              <th data-sw-translate="">Headers</th>
+            </tr>
+            </thead>
+            <tbody class="operation-status">
+            <tr><td width="15%" class="code">201</td>
+<td class="markdown"><p>Created</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">401</td>
+<td class="markdown"><p>Unauthorized</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">403</td>
+<td class="markdown"><p>Forbidden</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">404</td>
+<td class="markdown"><p>Not Found</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr></tbody>
+          </table>
+          <div class="sandbox_header">
+            <input class="submit" type="submit" value="Try it out!" data-sw-translate="">
+            <a class="response_hider" style="" data-sw-translate="">Hide Response</a>
+            <span class="response_throbber" style="display: none;"></span>
+          </div>
+        </form>
+        <div class="response" style="">
+          <h4 class="curl">Curl</h4>
+          <div class="block curl"><pre>curl -X POST --header 'Content-Type: application/json' --header 'Accept: */*' -d '{ \ 
+   "content": {}, \ 
+   "id": "string" \ 
+ }' 'http://localhost:8085/curricularQualificationForm'</pre></div>
+          <h4 data-sw-translate="">Request URL</h4>
+          <div class="block request_url"><pre>http://localhost:8085/curricularQualificationForm</pre></div>
+          <h4 data-sw-translate="">Request Headers</h4>
+          <div class="block request_headers"><pre>{<br>  "Accept": "*/*"<br>}</pre></div>
+          <h4 data-sw-translate="">Response Body</h4>
+          <div class="block response_body hljs"><pre class="json"><code>no content</code></pre></div>
+          <h4 data-sw-translate="">Response Code</h4>
+          <div class="block response_code"><pre>201</pre></div>
+          <h4 data-sw-translate="">Response Headers</h4>
+          <div class="block response_headers"><pre>{<br>  "date": "Wed, 28 Nov 2018 22:40:34 GMT",<br>  "content-length": "0",<br>  "content-type": null<br>}</pre></div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</li><li class="endpoint">  <ul class="operations">
+    <li class="post operation" id="form-controller_saveGlobalPlanQualificationFormUsingPOST">
+      <div class="heading">
+        <h3>
+          <span class="http_method">
+          <a class="toggleOperation">post</a>
+          </span>
+          <span class="path">
+          <a class="toggleOperation ">/globalPlanQualificationForm</a>
+          </span>
+        </h3>
+        <ul class="options">
+          <li>
+          <a class="toggleOperation"><span class="markdown"><p>saveGlobalPlanQualificationForm</p>
+</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="form-controller_saveGlobalPlanQualificationFormUsingPOST_content" style="">
+
+
+        <form accept-charset="UTF-8" class="sandbox">
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Parameters</h4>
+          <table class="fullwidth parameters">
+          <thead>
+            <tr>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter</th>
+            <th style="width: 310px; max-width: 310px" data-sw-translate="">Value</th>
+            <th style="width: 200px; max-width: 200px" data-sw-translate="">Description</th>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter Type</th>
+            <th style="width: 220px; max-width: 230px" data-sw-translate="">Data Type</th>
+            </tr>
+          </thead>
+          <tbody class="operation-params">
+
+          <tr><td class="code required"><label for="mglobalPlanQualificationForm0.7541542491258677">globalPlanQualificationForm</label></td>
+<td>
+				<textarea class="body-textarea required" placeholder="(required)" name="globalPlanQualificationForm" id="mglobalPlanQualificationForm0.7541542491258677"></textarea>
+				<div class="editor_holder"></div>
+				<br>
+				<div class="parameter-content-type"><div><label for="pct0.5638590520154063" data-sw-translate="">Parameter content type:</label>
+<select name="parameterContentType" id="pct0.5638590520154063">
+  <option value="application/json">application/json</option>
+</select>
+</div></div>
+</td>
+<td>
+	<strong><span class="markdown"><p>globalPlanQualificationForm</p>
+</span></strong>
+</td>
+<td>body</td>
+<td><span class="model-signature"><div>
+<div>
+<ul class="signature-nav">
+  <li><a class="description-link" data-sw-translate="">Model</a></li>
+  <li><a class="snippet-link selected" data-sw-translate="">Example Value</a></li>
+</ul>
+<div>
+
+<div class="signature-container">
+  <div class="description" style="display: none;">
+      <span class="strong">GlobalPlanQualificationForm {</span><div><span class="propName ">content</span> (<span class="propType">object</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">id</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>)</div><span class="strong">}</span>
+  </div>
+
+  <div class="snippet" style="display: block;">
+      <div class="snippet_json" style="display: block;">
+        <pre><code class="hljs json">{
+  "<span class="hljs-attr">content</span>": {},
+  "<span class="hljs-attr">id</span>": <span class="hljs-string">"string"</span>
+}</code></pre>
+        <small class="notice" data-sw-translate=""></small>
+      </div>
+  </div>
+</div>
+</div></div></div></span></td>
+</tr></tbody>
+          </table>
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Response Messages</h4>
+          <table class="fullwidth response-messages">
+            <thead>
+            <tr>
+              <th data-sw-translate="">HTTP Status Code</th>
+              <th data-sw-translate="">Reason</th>
+              <th data-sw-translate="">Response Model</th>
+              <th data-sw-translate="">Headers</th>
+            </tr>
+            </thead>
+            <tbody class="operation-status">
+            <tr><td width="15%" class="code">201</td>
+<td class="markdown"><p>Created</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">401</td>
+<td class="markdown"><p>Unauthorized</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">403</td>
+<td class="markdown"><p>Forbidden</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">404</td>
+<td class="markdown"><p>Not Found</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr></tbody>
+          </table>
+          <div class="sandbox_header">
+            <input class="submit" type="submit" value="Try it out!" data-sw-translate="">
+            <a class="response_hider" style="" data-sw-translate="">Hide Response</a>
+            <span class="response_throbber" style="display: none;"></span>
+          </div>
+        </form>
+        <div class="response" style="">
+          <h4 class="curl">Curl</h4>
+          <div class="block curl"><pre>curl -X POST --header 'Content-Type: application/json' --header 'Accept: */*' -d '{ \ 
+   "content": {}, \ 
+   "id": "string" \ 
+ }' 'http://localhost:8085/globalPlanQualificationForm'</pre></div>
+          <h4 data-sw-translate="">Request URL</h4>
+          <div class="block request_url"><pre>http://localhost:8085/globalPlanQualificationForm</pre></div>
+          <h4 data-sw-translate="">Request Headers</h4>
+          <div class="block request_headers"><pre>{<br>  "Accept": "*/*"<br>}</pre></div>
+          <h4 data-sw-translate="">Response Body</h4>
+          <div class="block response_body hljs"><pre class="json"><code>no content</code></pre></div>
+          <h4 data-sw-translate="">Response Code</h4>
+          <div class="block response_code"><pre>201</pre></div>
+          <h4 data-sw-translate="">Response Headers</h4>
+          <div class="block response_headers"><pre>{<br>  "date": "Wed, 28 Nov 2018 22:40:42 GMT",<br>  "content-length": "0",<br>  "content-type": null<br>}</pre></div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</li><li class="endpoint">  <ul class="operations">
+    <li class="post operation" id="form-controller_saveInterviewQualificationFormUsingPOST">
+      <div class="heading">
+        <h3>
+          <span class="http_method">
+          <a class="toggleOperation">post</a>
+          </span>
+          <span class="path">
+          <a class="toggleOperation ">/interviewQualificationForm</a>
+          </span>
+        </h3>
+        <ul class="options">
+          <li>
+          <a class="toggleOperation"><span class="markdown"><p>saveInterviewQualificationForm</p>
+</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="form-controller_saveInterviewQualificationFormUsingPOST_content" style="">
+
+
+        <form accept-charset="UTF-8" class="sandbox">
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Parameters</h4>
+          <table class="fullwidth parameters">
+          <thead>
+            <tr>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter</th>
+            <th style="width: 310px; max-width: 310px" data-sw-translate="">Value</th>
+            <th style="width: 200px; max-width: 200px" data-sw-translate="">Description</th>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter Type</th>
+            <th style="width: 220px; max-width: 230px" data-sw-translate="">Data Type</th>
+            </tr>
+          </thead>
+          <tbody class="operation-params">
+
+          <tr><td class="code required"><label for="minterviewQualificationForm0.7804182437051779">interviewQualificationForm</label></td>
+<td>
+				<textarea class="body-textarea required" placeholder="(required)" name="interviewQualificationForm" id="minterviewQualificationForm0.7804182437051779"></textarea>
+				<div class="editor_holder"></div>
+				<br>
+				<div class="parameter-content-type"><div><label for="pct0.7766853516158474" data-sw-translate="">Parameter content type:</label>
+<select name="parameterContentType" id="pct0.7766853516158474">
+  <option value="application/json">application/json</option>
+</select>
+</div></div>
+</td>
+<td>
+	<strong><span class="markdown"><p>interviewQualificationForm</p>
+</span></strong>
+</td>
+<td>body</td>
+<td><span class="model-signature"><div>
+<div>
+<ul class="signature-nav">
+  <li><a class="description-link" data-sw-translate="">Model</a></li>
+  <li><a class="snippet-link selected" data-sw-translate="">Example Value</a></li>
+</ul>
+<div>
+
+<div class="signature-container">
+  <div class="description" style="display: none;">
+      <span class="strong">InterviewQualificationForm {</span><div><span class="propName ">content</span> (<span class="propType">object</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">id</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>)</div><span class="strong">}</span>
+  </div>
+
+  <div class="snippet" style="display: block;">
+      <div class="snippet_json" style="display: block;">
+        <pre><code class="hljs json">{
+  "<span class="hljs-attr">content</span>": {},
+  "<span class="hljs-attr">id</span>": <span class="hljs-string">"string"</span>
+}</code></pre>
+        <small class="notice" data-sw-translate=""></small>
+      </div>
+  </div>
+</div>
+</div></div></div></span></td>
+</tr></tbody>
+          </table>
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Response Messages</h4>
+          <table class="fullwidth response-messages">
+            <thead>
+            <tr>
+              <th data-sw-translate="">HTTP Status Code</th>
+              <th data-sw-translate="">Reason</th>
+              <th data-sw-translate="">Response Model</th>
+              <th data-sw-translate="">Headers</th>
+            </tr>
+            </thead>
+            <tbody class="operation-status">
+            <tr><td width="15%" class="code">201</td>
+<td class="markdown"><p>Created</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">401</td>
+<td class="markdown"><p>Unauthorized</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">403</td>
+<td class="markdown"><p>Forbidden</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">404</td>
+<td class="markdown"><p>Not Found</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr></tbody>
+          </table>
+          <div class="sandbox_header">
+            <input class="submit" type="submit" value="Try it out!" data-sw-translate="">
+            <a class="response_hider" style="" data-sw-translate="">Hide Response</a>
+            <span class="response_throbber" style="display: none;"></span>
+          </div>
+        </form>
+        <div class="response" style="">
+          <h4 class="curl">Curl</h4>
+          <div class="block curl"><pre>curl -X POST --header 'Content-Type: application/json' --header 'Accept: */*' -d '{ \ 
+   "content": {}, \ 
+   "id": "string" \ 
+ }' 'http://localhost:8085/interviewQualificationForm'</pre></div>
+          <h4 data-sw-translate="">Request URL</h4>
+          <div class="block request_url"><pre>http://localhost:8085/interviewQualificationForm</pre></div>
+          <h4 data-sw-translate="">Request Headers</h4>
+          <div class="block request_headers"><pre>{<br>  "Accept": "*/*"<br>}</pre></div>
+          <h4 data-sw-translate="">Response Body</h4>
+          <div class="block response_body hljs"><pre class="json"><code>no content</code></pre></div>
+          <h4 data-sw-translate="">Response Code</h4>
+          <div class="block response_code"><pre>201</pre></div>
+          <h4 data-sw-translate="">Response Headers</h4>
+          <div class="block response_headers"><pre>{<br>  "date": "Wed, 28 Nov 2018 22:40:47 GMT",<br>  "content-length": "0",<br>  "content-type": null<br>}</pre></div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</li><li class="endpoint">  <ul class="operations">
+    <li class="post operation" id="form-controller_saveMiniClassQualificationFormUsingPOST">
+      <div class="heading">
+        <h3>
+          <span class="http_method">
+          <a class="toggleOperation">post</a>
+          </span>
+          <span class="path">
+          <a class="toggleOperation ">/miniClassQualificationForm</a>
+          </span>
+        </h3>
+        <ul class="options">
+          <li>
+          <a class="toggleOperation"><span class="markdown"><p>saveMiniClassQualificationForm</p>
+</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="form-controller_saveMiniClassQualificationFormUsingPOST_content" style="">
+
+
+        <form accept-charset="UTF-8" class="sandbox">
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Parameters</h4>
+          <table class="fullwidth parameters">
+          <thead>
+            <tr>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter</th>
+            <th style="width: 310px; max-width: 310px" data-sw-translate="">Value</th>
+            <th style="width: 200px; max-width: 200px" data-sw-translate="">Description</th>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter Type</th>
+            <th style="width: 220px; max-width: 230px" data-sw-translate="">Data Type</th>
+            </tr>
+          </thead>
+          <tbody class="operation-params">
+
+          <tr><td class="code required"><label for="mminiClassQualificationForm0.30948720948048547">miniClassQualificationForm</label></td>
+<td>
+				<textarea class="body-textarea required" placeholder="(required)" name="miniClassQualificationForm" id="mminiClassQualificationForm0.30948720948048547"></textarea>
+				<div class="editor_holder"></div>
+				<br>
+				<div class="parameter-content-type"><div><label for="pct0.899866291793942" data-sw-translate="">Parameter content type:</label>
+<select name="parameterContentType" id="pct0.899866291793942">
+  <option value="application/json">application/json</option>
+</select>
+</div></div>
+</td>
+<td>
+	<strong><span class="markdown"><p>miniClassQualificationForm</p>
+</span></strong>
+</td>
+<td>body</td>
+<td><span class="model-signature"><div>
+<div>
+<ul class="signature-nav">
+  <li><a class="description-link" data-sw-translate="">Model</a></li>
+  <li><a class="snippet-link selected" data-sw-translate="">Example Value</a></li>
+</ul>
+<div>
+
+<div class="signature-container">
+  <div class="description" style="display: none;">
+      <span class="strong">MiniClassQualificationForm {</span><div><span class="propName ">content</span> (<span class="propType">object</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">id</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>)</div><span class="strong">}</span>
+  </div>
+
+  <div class="snippet" style="display: block;">
+      <div class="snippet_json" style="display: block;">
+        <pre><code class="hljs json">{
+  "<span class="hljs-attr">content</span>": {},
+  "<span class="hljs-attr">id</span>": <span class="hljs-string">"string"</span>
+}</code></pre>
+        <small class="notice" data-sw-translate=""></small>
+      </div>
+  </div>
+</div>
+</div></div></div></span></td>
+</tr></tbody>
+          </table>
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Response Messages</h4>
+          <table class="fullwidth response-messages">
+            <thead>
+            <tr>
+              <th data-sw-translate="">HTTP Status Code</th>
+              <th data-sw-translate="">Reason</th>
+              <th data-sw-translate="">Response Model</th>
+              <th data-sw-translate="">Headers</th>
+            </tr>
+            </thead>
+            <tbody class="operation-status">
+            <tr><td width="15%" class="code">201</td>
+<td class="markdown"><p>Created</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">401</td>
+<td class="markdown"><p>Unauthorized</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">403</td>
+<td class="markdown"><p>Forbidden</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">404</td>
+<td class="markdown"><p>Not Found</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr></tbody>
+          </table>
+          <div class="sandbox_header">
+            <input class="submit" type="submit" value="Try it out!" data-sw-translate="">
+            <a class="response_hider" style="" data-sw-translate="">Hide Response</a>
+            <span class="response_throbber" style="display: none;"></span>
+          </div>
+        </form>
+        <div class="response" style="">
+          <h4 class="curl">Curl</h4>
+          <div class="block curl"><pre>curl -X POST --header 'Content-Type: application/json' --header 'Accept: */*' -d '{ \ 
+   "content": {}, \ 
+   "id": "string" \ 
+ }' 'http://localhost:8085/miniClassQualificationForm'</pre></div>
+          <h4 data-sw-translate="">Request URL</h4>
+          <div class="block request_url"><pre>http://localhost:8085/miniClassQualificationForm</pre></div>
+          <h4 data-sw-translate="">Request Headers</h4>
+          <div class="block request_headers"><pre>{<br>  "Accept": "*/*"<br>}</pre></div>
+          <h4 data-sw-translate="">Response Body</h4>
+          <div class="block response_body hljs"><pre class="json"><code>no content</code></pre></div>
+          <h4 data-sw-translate="">Response Code</h4>
+          <div class="block response_code"><pre>201</pre></div>
+          <h4 data-sw-translate="">Response Headers</h4>
+          <div class="block response_headers"><pre>{<br>  "date": "Wed, 28 Nov 2018 22:40:55 GMT",<br>  "content-length": "0",<br>  "content-type": null<br>}</pre></div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</li></ul>
+</li><li id="resource_my-app-controller" class="resource"><div class="heading">
+  <h2>
+    <a class="toggleEndpointList" data-id="my-app-controller">my-app-controller</a>  : My App Controller
+  </h2>
+  <ul class="options">
+    <li>
+      <a id="endpointListTogger_my-app-controller" class="toggleEndpointList" data-id="my-app-controller" data-sw-translate="">Show/Hide</a>
+    </li>
+    <li>
+      <a class="collapseResource" data-id="my-app-controller" data-sw-translate="">
+        List Operations
+      </a>
+    </li>
+    <li>
+      <a class="expandResource" data-id="my-app-controller" data-sw-translate="">
+        Expand Operations
+      </a>
+    </li>
+  </ul>
+</div>
+<ul class="endpoints" id="my-app-controller_endpoint_list" style="display:none">
+
+<li class="endpoint">  <ul class="operations">
+    <li class="delete operation" id="my-app-controller_indexUsingDELETE">
+      <div class="heading">
+        <h3>
+          <span class="http_method">
+          <a class="toggleOperation">delete</a>
+          </span>
+          <span class="path">
+          <a class="toggleOperation ">/</a>
+          </span>
+        </h3>
+        <ul class="options">
+          <li>
+          <a class="toggleOperation"><span class="markdown"><p>index</p>
+</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="my-app-controller_indexUsingDELETE_content" style="display:none">
+          <div class="response-class">
+            <h4><span data-sw-translate="">Response Class</span> (<span data-sw-translate="">Status</span> 200)</h4>
+              
+            <p><span class="model-signature"><div>    string
+</div></span></p>
+            <br>
+            <div class="response-content-type"><div><label data-sw-translate="" for="rct0.5755615183822134">Response Content Type</label>
+<select name="responseContentType" id="rct0.5755615183822134">
+  <option value="*/*">*/*</option>
+</select>
+</div></div>
+            </div>
+
+
+        <form accept-charset="UTF-8" class="sandbox">
+          <div style="margin:0;padding:0;display:inline"></div>
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Response Messages</h4>
+          <table class="fullwidth response-messages">
+            <thead>
+            <tr>
+              <th data-sw-translate="">HTTP Status Code</th>
+              <th data-sw-translate="">Reason</th>
+              <th data-sw-translate="">Response Model</th>
+              <th data-sw-translate="">Headers</th>
+            </tr>
+            </thead>
+            <tbody class="operation-status">
+            <tr><td width="15%" class="code">204</td>
+<td class="markdown"><p>No Content</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">401</td>
+<td class="markdown"><p>Unauthorized</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">403</td>
+<td class="markdown"><p>Forbidden</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr></tbody>
+          </table>
+          <div class="sandbox_header">
+            <input class="submit" type="submit" value="Try it out!" data-sw-translate="">
+            <a href="http://localhost:8085/swagger-ui.html#" class="response_hider" style="display:none" data-sw-translate="">Hide Response</a>
+            <span class="response_throbber" style="display:none"></span>
+          </div>
+        </form>
+        <div class="response" style="display:none">
+          <h4 class="curl">Curl</h4>
+          <div class="block curl"></div>
+          <h4 data-sw-translate="">Request URL</h4>
+          <div class="block request_url"></div>
+          <h4 data-sw-translate="">Request Headers</h4>
+          <div class="block request_headers"></div>
+          <h4 data-sw-translate="">Response Body</h4>
+          <div class="block response_body"></div>
+          <h4 data-sw-translate="">Response Code</h4>
+          <div class="block response_code"></div>
+          <h4 data-sw-translate="">Response Headers</h4>
+          <div class="block response_headers"></div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</li><li class="endpoint">  <ul class="operations">
+    <li class="get operation" id="my-app-controller_indexUsingGET">
+      <div class="heading">
+        <h3>
+          <span class="http_method">
+          <a class="toggleOperation">get</a>
+          </span>
+          <span class="path">
+          <a class="toggleOperation ">/</a>
+          </span>
+        </h3>
+        <ul class="options">
+          <li>
+          <a class="toggleOperation"><span class="markdown"><p>index</p>
+</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="my-app-controller_indexUsingGET_content" style="display:none">
+          <div class="response-class">
+            <h4><span data-sw-translate="">Response Class</span> (<span data-sw-translate="">Status</span> 200)</h4>
+              
+            <p><span class="model-signature"><div>    string
+</div></span></p>
+            <br>
+            <div class="response-content-type"><div><label data-sw-translate="" for="rct0.24072757463340744">Response Content Type</label>
+<select name="responseContentType" id="rct0.24072757463340744">
+  <option value="*/*">*/*</option>
+</select>
+</div></div>
+            </div>
+
+
+        <form accept-charset="UTF-8" class="sandbox">
+          <div style="margin:0;padding:0;display:inline"></div>
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Response Messages</h4>
+          <table class="fullwidth response-messages">
+            <thead>
+            <tr>
+              <th data-sw-translate="">HTTP Status Code</th>
+              <th data-sw-translate="">Reason</th>
+              <th data-sw-translate="">Response Model</th>
+              <th data-sw-translate="">Headers</th>
+            </tr>
+            </thead>
+            <tbody class="operation-status">
+            <tr><td width="15%" class="code">401</td>
+<td class="markdown"><p>Unauthorized</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">403</td>
+<td class="markdown"><p>Forbidden</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">404</td>
+<td class="markdown"><p>Not Found</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr></tbody>
+          </table>
+          <div class="sandbox_header">
+            <input class="submit" type="submit" value="Try it out!" data-sw-translate="">
+            <a class="response_hider" style="display:none" data-sw-translate="">Hide Response</a>
+            <span class="response_throbber" style="display:none"></span>
+          </div>
+        </form>
+        <div class="response" style="display:none">
+          <h4 class="curl">Curl</h4>
+          <div class="block curl"></div>
+          <h4 data-sw-translate="">Request URL</h4>
+          <div class="block request_url"></div>
+          <h4 data-sw-translate="">Request Headers</h4>
+          <div class="block request_headers"></div>
+          <h4 data-sw-translate="">Response Body</h4>
+          <div class="block response_body"></div>
+          <h4 data-sw-translate="">Response Code</h4>
+          <div class="block response_code"></div>
+          <h4 data-sw-translate="">Response Headers</h4>
+          <div class="block response_headers"></div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</li><li class="endpoint">  <ul class="operations">
+    <li class="head operation" id="my-app-controller_indexUsingHEAD">
+      <div class="heading">
+        <h3>
+          <span class="http_method">
+          <a class="toggleOperation">head</a>
+          </span>
+          <span class="path">
+          <a class="toggleOperation ">/</a>
+          </span>
+        </h3>
+        <ul class="options">
+          <li>
+          <a class="toggleOperation"><span class="markdown"><p>index</p>
+</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="my-app-controller_indexUsingHEAD_content" style="display:none">
+          <div class="response-class">
+            <h4><span data-sw-translate="">Response Class</span> (<span data-sw-translate="">Status</span> 200)</h4>
+              
+            <p><span class="model-signature"><div>    string
+</div></span></p>
+            <br>
+            <div class="response-content-type"><div><label data-sw-translate="" for="rct0.5077615551336747">Response Content Type</label>
+<select name="responseContentType" id="rct0.5077615551336747">
+  <option value="*/*">*/*</option>
+</select>
+</div></div>
+            </div>
+
+
+        <form accept-charset="UTF-8" class="sandbox">
+          <div style="margin:0;padding:0;display:inline"></div>
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Response Messages</h4>
+          <table class="fullwidth response-messages">
+            <thead>
+            <tr>
+              <th data-sw-translate="">HTTP Status Code</th>
+              <th data-sw-translate="">Reason</th>
+              <th data-sw-translate="">Response Model</th>
+              <th data-sw-translate="">Headers</th>
+            </tr>
+            </thead>
+            <tbody class="operation-status">
+            <tr><td width="15%" class="code">204</td>
+<td class="markdown"><p>No Content</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">401</td>
+<td class="markdown"><p>Unauthorized</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">403</td>
+<td class="markdown"><p>Forbidden</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr></tbody>
+          </table>
+        </form>
+        <div class="response" style="display:none">
+          <h4 class="curl">Curl</h4>
+          <div class="block curl"></div>
+          <h4 data-sw-translate="">Request URL</h4>
+          <div class="block request_url"></div>
+          <h4 data-sw-translate="">Request Headers</h4>
+          <div class="block request_headers"></div>
+          <h4 data-sw-translate="">Response Body</h4>
+          <div class="block response_body"></div>
+          <h4 data-sw-translate="">Response Code</h4>
+          <div class="block response_code"></div>
+          <h4 data-sw-translate="">Response Headers</h4>
+          <div class="block response_headers"></div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</li><li class="endpoint">  <ul class="operations">
+    <li class="options operation" id="my-app-controller_indexUsingOPTIONS">
+      <div class="heading">
+        <h3>
+          <span class="http_method">
+          <a class="toggleOperation">options</a>
+          </span>
+          <span class="path">
+          <a class="toggleOperation ">/</a>
+          </span>
+        </h3>
+        <ul class="options">
+          <li>
+          <a class="toggleOperation"><span class="markdown"><p>index</p>
+</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="my-app-controller_indexUsingOPTIONS_content" style="display:none">
+          <div class="response-class">
+            <h4><span data-sw-translate="">Response Class</span> (<span data-sw-translate="">Status</span> 200)</h4>
+              
+            <p><span class="model-signature"><div>    string
+</div></span></p>
+            <br>
+            <div class="response-content-type"><div><label data-sw-translate="" for="rct0.7826773514534924">Response Content Type</label>
+<select name="responseContentType" id="rct0.7826773514534924">
+  <option value="*/*">*/*</option>
+</select>
+</div></div>
+            </div>
+
+
+        <form accept-charset="UTF-8" class="sandbox">
+          <div style="margin:0;padding:0;display:inline"></div>
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Response Messages</h4>
+          <table class="fullwidth response-messages">
+            <thead>
+            <tr>
+              <th data-sw-translate="">HTTP Status Code</th>
+              <th data-sw-translate="">Reason</th>
+              <th data-sw-translate="">Response Model</th>
+              <th data-sw-translate="">Headers</th>
+            </tr>
+            </thead>
+            <tbody class="operation-status">
+            <tr><td width="15%" class="code">204</td>
+<td class="markdown"><p>No Content</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">401</td>
+<td class="markdown"><p>Unauthorized</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">403</td>
+<td class="markdown"><p>Forbidden</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr></tbody>
+          </table>
+        </form>
+        <div class="response" style="display:none">
+          <h4 class="curl">Curl</h4>
+          <div class="block curl"></div>
+          <h4 data-sw-translate="">Request URL</h4>
+          <div class="block request_url"></div>
+          <h4 data-sw-translate="">Request Headers</h4>
+          <div class="block request_headers"></div>
+          <h4 data-sw-translate="">Response Body</h4>
+          <div class="block response_body"></div>
+          <h4 data-sw-translate="">Response Code</h4>
+          <div class="block response_code"></div>
+          <h4 data-sw-translate="">Response Headers</h4>
+          <div class="block response_headers"></div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</li><li class="endpoint">  <ul class="operations">
+    <li class="patch operation" id="my-app-controller_indexUsingPATCH">
+      <div class="heading">
+        <h3>
+          <span class="http_method">
+          <a class="toggleOperation">patch</a>
+          </span>
+          <span class="path">
+          <a class="toggleOperation ">/</a>
+          </span>
+        </h3>
+        <ul class="options">
+          <li>
+          <a class="toggleOperation"><span class="markdown"><p>index</p>
+</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="my-app-controller_indexUsingPATCH_content" style="display:none">
+          <div class="response-class">
+            <h4><span data-sw-translate="">Response Class</span> (<span data-sw-translate="">Status</span> 200)</h4>
+              
+            <p><span class="model-signature"><div>    string
+</div></span></p>
+            <br>
+            <div class="response-content-type"><div><label data-sw-translate="" for="rct0.6399445664821604">Response Content Type</label>
+<select name="responseContentType" id="rct0.6399445664821604">
+  <option value="*/*">*/*</option>
+</select>
+</div></div>
+            </div>
+
+
+        <form accept-charset="UTF-8" class="sandbox">
+          <div style="margin:0;padding:0;display:inline"></div>
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Response Messages</h4>
+          <table class="fullwidth response-messages">
+            <thead>
+            <tr>
+              <th data-sw-translate="">HTTP Status Code</th>
+              <th data-sw-translate="">Reason</th>
+              <th data-sw-translate="">Response Model</th>
+              <th data-sw-translate="">Headers</th>
+            </tr>
+            </thead>
+            <tbody class="operation-status">
+            <tr><td width="15%" class="code">204</td>
+<td class="markdown"><p>No Content</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">401</td>
+<td class="markdown"><p>Unauthorized</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">403</td>
+<td class="markdown"><p>Forbidden</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr></tbody>
+          </table>
+          <div class="sandbox_header">
+            <input class="submit" type="submit" value="Try it out!" data-sw-translate="">
+            <a class="response_hider" style="display:none" data-sw-translate="">Hide Response</a>
+            <span class="response_throbber" style="display:none"></span>
+          </div>
+        </form>
+        <div class="response" style="display:none">
+          <h4 class="curl">Curl</h4>
+          <div class="block curl"></div>
+          <h4 data-sw-translate="">Request URL</h4>
+          <div class="block request_url"></div>
+          <h4 data-sw-translate="">Request Headers</h4>
+          <div class="block request_headers"></div>
+          <h4 data-sw-translate="">Response Body</h4>
+          <div class="block response_body"></div>
+          <h4 data-sw-translate="">Response Code</h4>
+          <div class="block response_code"></div>
+          <h4 data-sw-translate="">Response Headers</h4>
+          <div class="block response_headers"></div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</li><li class="endpoint">  <ul class="operations">
+    <li class="post operation" id="my-app-controller_indexUsingPOST">
+      <div class="heading">
+        <h3>
+          <span class="http_method">
+          <a class="toggleOperation">post</a>
+          </span>
+          <span class="path">
+          <a class="toggleOperation ">/</a>
+          </span>
+        </h3>
+        <ul class="options">
+          <li>
+          <a class="toggleOperation"><span class="markdown"><p>index</p>
+</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="my-app-controller_indexUsingPOST_content" style="display:none">
+          <div class="response-class">
+            <h4><span data-sw-translate="">Response Class</span> (<span data-sw-translate="">Status</span> 200)</h4>
+              
+            <p><span class="model-signature"><div>    string
+</div></span></p>
+            <br>
+            <div class="response-content-type"><div><label data-sw-translate="" for="rct0.06537074173191826">Response Content Type</label>
+<select name="responseContentType" id="rct0.06537074173191826">
+  <option value="*/*">*/*</option>
+</select>
+</div></div>
+            </div>
+
+
+        <form accept-charset="UTF-8" class="sandbox">
+          <div style="margin:0;padding:0;display:inline"></div>
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Response Messages</h4>
+          <table class="fullwidth response-messages">
+            <thead>
+            <tr>
+              <th data-sw-translate="">HTTP Status Code</th>
+              <th data-sw-translate="">Reason</th>
+              <th data-sw-translate="">Response Model</th>
+              <th data-sw-translate="">Headers</th>
+            </tr>
+            </thead>
+            <tbody class="operation-status">
+            <tr><td width="15%" class="code">201</td>
+<td class="markdown"><p>Created</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">401</td>
+<td class="markdown"><p>Unauthorized</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">403</td>
+<td class="markdown"><p>Forbidden</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">404</td>
+<td class="markdown"><p>Not Found</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr></tbody>
+          </table>
+          <div class="sandbox_header">
+            <input class="submit" type="submit" value="Try it out!" data-sw-translate="">
+            <a class="response_hider" style="display:none" data-sw-translate="">Hide Response</a>
+            <span class="response_throbber" style="display:none"></span>
+          </div>
+        </form>
+        <div class="response" style="display:none">
+          <h4 class="curl">Curl</h4>
+          <div class="block curl"></div>
+          <h4 data-sw-translate="">Request URL</h4>
+          <div class="block request_url"></div>
+          <h4 data-sw-translate="">Request Headers</h4>
+          <div class="block request_headers"></div>
+          <h4 data-sw-translate="">Response Body</h4>
+          <div class="block response_body"></div>
+          <h4 data-sw-translate="">Response Code</h4>
+          <div class="block response_code"></div>
+          <h4 data-sw-translate="">Response Headers</h4>
+          <div class="block response_headers"></div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</li><li class="endpoint">  <ul class="operations">
+    <li class="put operation" id="my-app-controller_indexUsingPUT">
+      <div class="heading">
+        <h3>
+          <span class="http_method">
+          <a class="toggleOperation">put</a>
+          </span>
+          <span class="path">
+          <a class="toggleOperation ">/</a>
+          </span>
+        </h3>
+        <ul class="options">
+          <li>
+          <a class="toggleOperation"><span class="markdown"><p>index</p>
+</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="my-app-controller_indexUsingPUT_content" style="display:none">
+          <div class="response-class">
+            <h4><span data-sw-translate="">Response Class</span> (<span data-sw-translate="">Status</span> 200)</h4>
+              
+            <p><span class="model-signature"><div>    string
+</div></span></p>
+            <br>
+            <div class="response-content-type"><div><label data-sw-translate="" for="rct0.6320062500852792">Response Content Type</label>
+<select name="responseContentType" id="rct0.6320062500852792">
+  <option value="*/*">*/*</option>
+</select>
+</div></div>
+            </div>
+
+
+        <form accept-charset="UTF-8" class="sandbox">
+          <div style="margin:0;padding:0;display:inline"></div>
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Response Messages</h4>
+          <table class="fullwidth response-messages">
+            <thead>
+            <tr>
+              <th data-sw-translate="">HTTP Status Code</th>
+              <th data-sw-translate="">Reason</th>
+              <th data-sw-translate="">Response Model</th>
+              <th data-sw-translate="">Headers</th>
+            </tr>
+            </thead>
+            <tbody class="operation-status">
+            <tr><td width="15%" class="code">201</td>
+<td class="markdown"><p>Created</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">401</td>
+<td class="markdown"><p>Unauthorized</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">403</td>
+<td class="markdown"><p>Forbidden</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">404</td>
+<td class="markdown"><p>Not Found</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr></tbody>
+          </table>
+          <div class="sandbox_header">
+            <input class="submit" type="submit" value="Try it out!" data-sw-translate="">
+            <a class="response_hider" style="display:none" data-sw-translate="">Hide Response</a>
+            <span class="response_throbber" style="display:none"></span>
+          </div>
+        </form>
+        <div class="response" style="display:none">
+          <h4 class="curl">Curl</h4>
+          <div class="block curl"></div>
+          <h4 data-sw-translate="">Request URL</h4>
+          <div class="block request_url"></div>
+          <h4 data-sw-translate="">Request Headers</h4>
+          <div class="block request_headers"></div>
+          <h4 data-sw-translate="">Response Body</h4>
+          <div class="block response_body"></div>
+          <h4 data-sw-translate="">Response Code</h4>
+          <div class="block response_code"></div>
+          <h4 data-sw-translate="">Response Headers</h4>
+          <div class="block response_headers"></div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</li></ul>
+</li><li id="resource_subject-controller" class="resource active"><div class="heading">
+  <h2>
+    <a class="toggleEndpointList" data-id="subject-controller">subject-controller</a>  : Subject Controller
+  </h2>
+  <ul class="options">
+    <li>
+      <a id="endpointListTogger_subject-controller" class="toggleEndpointList" data-id="subject-controller" data-sw-translate="">Show/Hide</a>
+    </li>
+    <li>
+      <a class="collapseResource" data-id="subject-controller" data-sw-translate="">
+        List Operations
+      </a>
+    </li>
+    <li>
+      <a class="expandResource" data-id="subject-controller" data-sw-translate="">
+        Expand Operations
+      </a>
+    </li>
+  </ul>
+</div>
+<ul class="endpoints" id="subject-controller_endpoint_list" style="">
+
+<li class="endpoint">  <ul class="operations">
+    <li class="post operation" id="subject-controller_saveSubjectUsingPOST">
+      <div class="heading">
+        <h3>
+          <span class="http_method">
+          <a class="toggleOperation">post</a>
+          </span>
+          <span class="path">
+          <a class="toggleOperation ">/subject</a>
+          </span>
+        </h3>
+        <ul class="options">
+          <li>
+          <a class="toggleOperation"><span class="markdown"><p>saveSubject</p>
+</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="subject-controller_saveSubjectUsingPOST_content" style="">
+
+
+        <form accept-charset="UTF-8" class="sandbox">
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Parameters</h4>
+          <table class="fullwidth parameters">
+          <thead>
+            <tr>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter</th>
+            <th style="width: 310px; max-width: 310px" data-sw-translate="">Value</th>
+            <th style="width: 200px; max-width: 200px" data-sw-translate="">Description</th>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter Type</th>
+            <th style="width: 220px; max-width: 230px" data-sw-translate="">Data Type</th>
+            </tr>
+          </thead>
+          <tbody class="operation-params">
+
+          <tr><td class="code required"><label for="msubject0.5218185827598163">subject</label></td>
+<td>
+				<textarea class="body-textarea required" placeholder="(required)" name="subject" id="msubject0.5218185827598163"></textarea>
+				<div class="editor_holder"></div>
+				<br>
+				<div class="parameter-content-type"><div><label for="pct0.06351886868127332" data-sw-translate="">Parameter content type:</label>
+<select name="parameterContentType" id="pct0.06351886868127332">
+  <option value="application/json">application/json</option>
+</select>
+</div></div>
+</td>
+<td>
+	<strong><span class="markdown"><p>subject</p>
+</span></strong>
+</td>
+<td>body</td>
+<td><span class="model-signature"><div>
+<div>
+<ul class="signature-nav">
+  <li><a class="description-link" data-sw-translate="">Model</a></li>
+  <li><a class="snippet-link selected" data-sw-translate="">Example Value</a></li>
+</ul>
+<div>
+
+<div class="signature-container">
+  <div class="description" style="display: none;">
+      <span class="strong">Subject {</span><div><span class="propName ">department</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">id</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">initials</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">major</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">name</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>)</div><span class="strong">}</span>
+  </div>
+
+  <div class="snippet" style="display: block;">
+      <div class="snippet_json" style="display: block;">
+        <pre><code class="hljs json">{
+  "<span class="hljs-attr">department</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">id</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">initials</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">major</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">name</span>": <span class="hljs-string">"string"</span>
+}</code></pre>
+        <small class="notice" data-sw-translate=""></small>
+      </div>
+  </div>
+</div>
+</div></div></div></span></td>
+</tr></tbody>
+          </table>
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Response Messages</h4>
+          <table class="fullwidth response-messages">
+            <thead>
+            <tr>
+              <th data-sw-translate="">HTTP Status Code</th>
+              <th data-sw-translate="">Reason</th>
+              <th data-sw-translate="">Response Model</th>
+              <th data-sw-translate="">Headers</th>
+            </tr>
+            </thead>
+            <tbody class="operation-status">
+            <tr><td width="15%" class="code">201</td>
+<td class="markdown"><p>Created</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">401</td>
+<td class="markdown"><p>Unauthorized</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">403</td>
+<td class="markdown"><p>Forbidden</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">404</td>
+<td class="markdown"><p>Not Found</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr></tbody>
+          </table>
+          <div class="sandbox_header">
+            <input class="submit" type="submit" value="Try it out!" data-sw-translate="">
+            <a class="response_hider" style="" data-sw-translate="">Hide Response</a>
+            <span class="response_throbber" style="display: none;"></span>
+          </div>
+        </form>
+        <div class="response" style="">
+          <h4 class="curl">Curl</h4>
+          <div class="block curl"><pre>curl -X POST --header 'Content-Type: application/json' --header 'Accept: */*' -d '{ \ 
+   "department": "string", \ 
+   "id": "string", \ 
+   "initials": "string", \ 
+   "major": "string", \ 
+   "name": "string" \ 
+ }' 'http://localhost:8085/subject'</pre></div>
+          <h4 data-sw-translate="">Request URL</h4>
+          <div class="block request_url"><pre>http://localhost:8085/subject</pre></div>
+          <h4 data-sw-translate="">Request Headers</h4>
+          <div class="block request_headers"><pre>{<br>  "Accept": "*/*"<br>}</pre></div>
+          <h4 data-sw-translate="">Response Body</h4>
+          <div class="block response_body hljs"><pre class="json"><code>no content</code></pre></div>
+          <h4 data-sw-translate="">Response Code</h4>
+          <div class="block response_code"><pre>201</pre></div>
+          <h4 data-sw-translate="">Response Headers</h4>
+          <div class="block response_headers"><pre>{<br>  "date": "Wed, 28 Nov 2018 22:41:05 GMT",<br>  "content-length": "0",<br>  "content-type": null<br>}</pre></div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</li><li class="endpoint">  <ul class="operations">
+    <li class="get operation" id="subject-controller_showSubjectUsingGET">
+      <div class="heading">
+        <h3>
+          <span class="http_method">
+          <a class="toggleOperation">get</a>
+          </span>
+          <span class="path">
+          <a class="toggleOperation ">/subject/{id}</a>
+          </span>
+        </h3>
+        <ul class="options">
+          <li>
+          <a class="toggleOperation"><span class="markdown"><p>showSubject</p>
+</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="subject-controller_showSubjectUsingGET_content" style="">
+          <div class="response-class">
+            <h4><span data-sw-translate="">Response Class</span> (<span data-sw-translate="">Status</span> 200)</h4>
+              <div class="markdown"><p>OK</p>
+</div>
+            <p><span class="model-signature"><div>
+<div>
+<ul class="signature-nav">
+  <li><a class="description-link" data-sw-translate="">Model</a></li>
+  <li><a class="snippet-link selected" data-sw-translate="">Example Value</a></li>
+</ul>
+<div>
+
+<div class="signature-container">
+  <div class="description" style="display: none;">
+      <span class="strong">Subject {</span><div><span class="propName ">department</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">id</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">initials</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">major</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">name</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>)</div><span class="strong">}</span>
+  </div>
+
+  <div class="snippet" style="display: block;">
+      <div class="snippet_json" style="display: block;">
+        <pre><code class="hljs json">{
+  "<span class="hljs-attr">department</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">id</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">initials</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">major</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">name</span>": <span class="hljs-string">"string"</span>
+}</code></pre>
+        
+      </div>
+  </div>
+</div>
+</div></div></div></span></p>
+            <br>
+            <div class="response-content-type"><div><label data-sw-translate="" for="rct0.22266294882691762">Response Content Type</label>
+<select name="responseContentType" id="rct0.22266294882691762">
+  <option value="*/*">*/*</option>
+</select>
+</div></div>
+            </div>
+
+
+        <form accept-charset="UTF-8" class="sandbox">
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Parameters</h4>
+          <table class="fullwidth parameters">
+          <thead>
+            <tr>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter</th>
+            <th style="width: 310px; max-width: 310px" data-sw-translate="">Value</th>
+            <th style="width: 200px; max-width: 200px" data-sw-translate="">Description</th>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter Type</th>
+            <th style="width: 220px; max-width: 230px" data-sw-translate="">Data Type</th>
+            </tr>
+          </thead>
+          <tbody class="operation-params">
+
+          <tr><td class="code required"><label for="mid0.4908185163551986">id</label></td>
+<td>
+<input class="parameter required" minlength="1" name="id" placeholder="(required)" id="mid0.4908185163551986" type="text" value=""></td>
+<td>
+	<strong><span class="markdown"><p>id</p>
+</span></strong>
+</td>
+<td>path</td>
+<td><span class="model-signature">string</span></td>
+</tr></tbody>
+          </table>
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Response Messages</h4>
+          <table class="fullwidth response-messages">
+            <thead>
+            <tr>
+              <th data-sw-translate="">HTTP Status Code</th>
+              <th data-sw-translate="">Reason</th>
+              <th data-sw-translate="">Response Model</th>
+              <th data-sw-translate="">Headers</th>
+            </tr>
+            </thead>
+            <tbody class="operation-status">
+            <tr><td width="15%" class="code">401</td>
+<td class="markdown"><p>Unauthorized</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">403</td>
+<td class="markdown"><p>Forbidden</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">404</td>
+<td class="markdown"><p>Not Found</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr></tbody>
+          </table>
+          <div class="sandbox_header">
+            <input class="submit" type="submit" value="Try it out!" data-sw-translate="">
+            <a class="response_hider" style="" data-sw-translate="">Hide Response</a>
+            <span class="response_throbber" style="display: none;"></span>
+          </div>
+        </form>
+        <div class="response" style="">
+          <h4 class="curl">Curl</h4>
+          <div class="block curl"><pre>curl -X GET --header 'Accept: application/json' 'http://localhost:8085/subject/string'</pre></div>
+          <h4 data-sw-translate="">Request URL</h4>
+          <div class="block request_url"><pre>http://localhost:8085/subject/string</pre></div>
+          <h4 data-sw-translate="">Request Headers</h4>
+          <div class="block request_headers"><pre>{<br>  "Accept": "*/*"<br>}</pre></div>
+          <h4 data-sw-translate="">Response Body</h4>
+          <div class="block response_body hljs json"><pre class="json"><code>{
+  "<span class="hljs-attr">id</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">name</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">initials</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">department</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">major</span>": <span class="hljs-string">"string"</span>
+}</code></pre></div>
+          <h4 data-sw-translate="">Response Code</h4>
+          <div class="block response_code"><pre>200</pre></div>
+          <h4 data-sw-translate="">Response Headers</h4>
+          <div class="block response_headers"><pre>{<br>  "date": "Wed, 28 Nov 2018 22:43:51 GMT",<br>  "transfer-encoding": "chunked",<br>  "content-type": "application/json;charset=UTF-8"<br>}</pre></div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</li><li class="endpoint">  <ul class="operations">
+    <li class="get operation" id="subject-controller_listSubjectsUsingGET">
+      <div class="heading">
+        <h3>
+          <span class="http_method">
+          <a class="toggleOperation">get</a>
+          </span>
+          <span class="path">
+          <a class="toggleOperation ">/subjects</a>
+          </span>
+        </h3>
+        <ul class="options">
+          <li>
+          <a class="toggleOperation"><span class="markdown"><p>listSubjects</p>
+</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="subject-controller_listSubjectsUsingGET_content" style="">
+          <div class="response-class">
+            <h4><span data-sw-translate="">Response Class</span> (<span data-sw-translate="">Status</span> 200)</h4>
+              <div class="markdown"><p>OK</p>
+</div>
+            <p><span class="model-signature"><div>
+<div>
+<ul class="signature-nav">
+  <li><a class="description-link" data-sw-translate="">Model</a></li>
+  <li><a class="snippet-link selected" data-sw-translate="">Example Value</a></li>
+</ul>
+<div>
+
+<div class="signature-container">
+  <div class="description" style="display: none;">
+      <span class="strong">Inline Model [</span><div>Inline Model 1</div><span class="strong">]</span><span class="strong">Inline Model 1 {</span><div><span class="propName ">department</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">id</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">initials</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">major</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">name</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>)</div><span class="strong">}</span>
+  </div>
+
+  <div class="snippet" style="display: block;">
+      <div class="snippet_json" style="display: block;">
+        <pre><code class="hljs json">[
+  {
+    "<span class="hljs-attr">department</span>": <span class="hljs-string">"string"</span>,
+    "<span class="hljs-attr">id</span>": <span class="hljs-string">"string"</span>,
+    "<span class="hljs-attr">initials</span>": <span class="hljs-string">"string"</span>,
+    "<span class="hljs-attr">major</span>": <span class="hljs-string">"string"</span>,
+    "<span class="hljs-attr">name</span>": <span class="hljs-string">"string"</span>
+  }
+]</code></pre>
+        
+      </div>
+  </div>
+</div>
+</div></div></div></span></p>
+            <br>
+            <div class="response-content-type"><div><label data-sw-translate="" for="rct0.25011310814345245">Response Content Type</label>
+<select name="responseContentType" id="rct0.25011310814345245">
+  <option value="*/*">*/*</option>
+</select>
+</div></div>
+            </div>
+
+
+        <form accept-charset="UTF-8" class="sandbox">
+          <div style="margin:0;padding:0;display:inline"></div>
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Response Messages</h4>
+          <table class="fullwidth response-messages">
+            <thead>
+            <tr>
+              <th data-sw-translate="">HTTP Status Code</th>
+              <th data-sw-translate="">Reason</th>
+              <th data-sw-translate="">Response Model</th>
+              <th data-sw-translate="">Headers</th>
+            </tr>
+            </thead>
+            <tbody class="operation-status">
+            <tr><td width="15%" class="code">401</td>
+<td class="markdown"><p>Unauthorized</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">403</td>
+<td class="markdown"><p>Forbidden</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">404</td>
+<td class="markdown"><p>Not Found</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr></tbody>
+          </table>
+          <div class="sandbox_header">
+            <input class="submit" type="submit" value="Try it out!" data-sw-translate="">
+            <a class="response_hider" style="" data-sw-translate="">Hide Response</a>
+            <span class="response_throbber" style="display: none;"></span>
+          </div>
+        </form>
+        <div class="response" style="">
+          <h4 class="curl">Curl</h4>
+          <div class="block curl"><pre>curl -X GET --header 'Accept: application/json' 'http://localhost:8085/subjects'</pre></div>
+          <h4 data-sw-translate="">Request URL</h4>
+          <div class="block request_url"><pre>http://localhost:8085/subjects</pre></div>
+          <h4 data-sw-translate="">Request Headers</h4>
+          <div class="block request_headers"><pre>{<br>  "Accept": "*/*"<br>}</pre></div>
+          <h4 data-sw-translate="">Response Body</h4>
+          <div class="block response_body hljs json"><pre class="json"><code>[
+  {
+    "<span class="hljs-attr">id</span>": <span class="hljs-string">"string"</span>,
+    "<span class="hljs-attr">name</span>": <span class="hljs-string">"string"</span>,
+    "<span class="hljs-attr">initials</span>": <span class="hljs-string">"string"</span>,
+    "<span class="hljs-attr">department</span>": <span class="hljs-string">"string"</span>,
+    "<span class="hljs-attr">major</span>": <span class="hljs-string">"string"</span>
+  }
+]</code></pre></div>
+          <h4 data-sw-translate="">Response Code</h4>
+          <div class="block response_code"><pre>200</pre></div>
+          <h4 data-sw-translate="">Response Headers</h4>
+          <div class="block response_headers"><pre>{<br>  "date": "Wed, 28 Nov 2018 22:43:59 GMT",<br>  "transfer-encoding": "chunked",<br>  "content-type": "application/json;charset=UTF-8"<br>}</pre></div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</li></ul>
+</li><li id="resource_user-controller" class="resource active"><div class="heading">
+  <h2>
+    <a class="toggleEndpointList" data-id="user-controller">user-controller</a>  : User Controller
+  </h2>
+  <ul class="options">
+    <li>
+      <a id="endpointListTogger_user-controller" class="toggleEndpointList" data-id="user-controller" data-sw-translate="">Show/Hide</a>
+    </li>
+    <li>
+      <a class="collapseResource" data-id="user-controller" data-sw-translate="">
+        List Operations
+      </a>
+    </li>
+    <li>
+      <a class="expandResource" data-id="user-controller" data-sw-translate="">
+        Expand Operations
+      </a>
+    </li>
+  </ul>
+</div>
+<ul class="endpoints" id="user-controller_endpoint_list" style="">
+
+<li class="endpoint">  <ul class="operations">
+    <li class="post operation" id="user-controller_loginUsingPOST">
+      <div class="heading">
+        <h3>
+          <span class="http_method">
+          <a class="toggleOperation">post</a>
+          </span>
+          <span class="path">
+          <a class="toggleOperation ">/login</a>
+          </span>
+        </h3>
+        <ul class="options">
+          <li>
+          <a class="toggleOperation"><span class="markdown"><p>login</p>
+</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="user-controller_loginUsingPOST_content" style="">
+          <div class="response-class">
+            <h4><span data-sw-translate="">Response Class</span> (<span data-sw-translate="">Status</span> 200)</h4>
+              <div class="markdown"><p>OK</p>
+</div>
+            <p><span class="model-signature"><div>
+<div>
+<ul class="signature-nav">
+  <li><a class="description-link" data-sw-translate="">Model</a></li>
+  <li><a class="snippet-link selected" data-sw-translate="">Example Value</a></li>
+</ul>
+<div>
+
+<div class="signature-container">
+  <div class="description" style="display: none;">
+      <span class="strong">User {</span><div><span class="propName ">birthdate</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">department</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">email</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">fatherLastname</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">id</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">motherLastname</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">name</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">password</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">role</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">username</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>)</div><span class="strong">}</span>
+  </div>
+
+  <div class="snippet" style="display: block;">
+      <div class="snippet_json" style="display: block;">
+        <pre><code class="hljs json">{
+  "<span class="hljs-attr">birthdate</span>": <span class="hljs-string">"2018-11-28T22:39:01.154Z"</span>,
+  "<span class="hljs-attr">department</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">email</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">fatherLastname</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">id</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">motherLastname</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">name</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">password</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">role</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">username</span>": <span class="hljs-string">"string"</span>
+}</code></pre>
+        
+      </div>
+  </div>
+</div>
+</div></div></div></span></p>
+            <br>
+            <div class="response-content-type"><div><label data-sw-translate="" for="rct0.318449200815234">Response Content Type</label>
+<select name="responseContentType" id="rct0.318449200815234">
+  <option value="*/*">*/*</option>
+</select>
+</div></div>
+            </div>
+
+
+        <form accept-charset="UTF-8" class="sandbox">
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Parameters</h4>
+          <table class="fullwidth parameters">
+          <thead>
+            <tr>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter</th>
+            <th style="width: 310px; max-width: 310px" data-sw-translate="">Value</th>
+            <th style="width: 200px; max-width: 200px" data-sw-translate="">Description</th>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter Type</th>
+            <th style="width: 220px; max-width: 230px" data-sw-translate="">Data Type</th>
+            </tr>
+          </thead>
+          <tbody class="operation-params">
+
+          <tr><td class="code required"><label for="muser0.9933146338998617">user</label></td>
+<td>
+				<textarea class="body-textarea required" placeholder="(required)" name="user" id="muser0.9933146338998617"></textarea>
+				<div class="editor_holder"></div>
+				<br>
+				<div class="parameter-content-type"><div><label for="pct0.7177714149886754" data-sw-translate="">Parameter content type:</label>
+<select name="parameterContentType" id="pct0.7177714149886754">
+  <option value="application/json">application/json</option>
+</select>
+</div></div>
+</td>
+<td>
+	<strong><span class="markdown"><p>user</p>
+</span></strong>
+</td>
+<td>body</td>
+<td><span class="model-signature"><div>
+<div>
+<ul class="signature-nav">
+  <li><a class="description-link" data-sw-translate="">Model</a></li>
+  <li><a class="snippet-link selected" data-sw-translate="">Example Value</a></li>
+</ul>
+<div>
+
+<div class="signature-container">
+  <div class="description" style="display: none;">
+      <span class="strong">User {</span><div><span class="propName ">birthdate</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">department</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">email</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">fatherLastname</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">id</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">motherLastname</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">name</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">password</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">role</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">username</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>)</div><span class="strong">}</span>
+  </div>
+
+  <div class="snippet" style="display: block;">
+      <div class="snippet_json" style="display: block;">
+        <pre><code class="hljs json">{
+  "<span class="hljs-attr">birthdate</span>": <span class="hljs-string">"2018-11-28T22:39:01.165Z"</span>,
+  "<span class="hljs-attr">department</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">email</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">fatherLastname</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">id</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">motherLastname</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">name</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">password</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">role</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">username</span>": <span class="hljs-string">"string"</span>
+}</code></pre>
+        <small class="notice" data-sw-translate=""></small>
+      </div>
+  </div>
+</div>
+</div></div></div></span></td>
+</tr></tbody>
+          </table>
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Response Messages</h4>
+          <table class="fullwidth response-messages">
+            <thead>
+            <tr>
+              <th data-sw-translate="">HTTP Status Code</th>
+              <th data-sw-translate="">Reason</th>
+              <th data-sw-translate="">Response Model</th>
+              <th data-sw-translate="">Headers</th>
+            </tr>
+            </thead>
+            <tbody class="operation-status">
+            <tr><td width="15%" class="code">201</td>
+<td class="markdown"><p>Created</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">401</td>
+<td class="markdown"><p>Unauthorized</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">403</td>
+<td class="markdown"><p>Forbidden</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">404</td>
+<td class="markdown"><p>Not Found</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr></tbody>
+          </table>
+          <div class="sandbox_header">
+            <input class="submit" type="submit" value="Try it out!" data-sw-translate="">
+            <a class="response_hider" style="" data-sw-translate="">Hide Response</a>
+            <span class="response_throbber" style="display: none;"></span>
+          </div>
+        </form>
+        <div class="response" style="">
+          <h4 class="curl">Curl</h4>
+          <div class="block curl"><pre>curl -X POST --header 'Content-Type: application/json' --header 'Accept: */*' -d '{ \ 
+   "birthdate": "2018-11-28T22:39:01.165Z", \ 
+   "department": "string", \ 
+   "email": "string", \ 
+   "fatherLastname": "string", \ 
+   "id": "string", \ 
+   "motherLastname": "string", \ 
+   "name": "string", \ 
+   "password": "string", \ 
+   "role": "string", \ 
+   "username": "string" \ 
+ }' 'http://localhost:8085/login'</pre></div>
+          <h4 data-sw-translate="">Request URL</h4>
+          <div class="block request_url"><pre>http://localhost:8085/login</pre></div>
+          <h4 data-sw-translate="">Request Headers</h4>
+          <div class="block request_headers"><pre>{<br>  "Accept": "*/*"<br>}</pre></div>
+          <h4 data-sw-translate="">Response Body</h4>
+          <div class="block response_body hljs"><pre class="json"><code>no content</code></pre></div>
+          <h4 data-sw-translate="">Response Code</h4>
+          <div class="block response_code"><pre>401</pre></div>
+          <h4 data-sw-translate="">Response Headers</h4>
+          <div class="block response_headers"><pre>{<br>  "date": "Wed, 28 Nov 2018 22:41:18 GMT",<br>  "content-length": "0",<br>  "content-type": null<br>}</pre></div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</li><li class="endpoint">  <ul class="operations">
+    <li class="post operation" id="user-controller_registrationUsingPOST">
+      <div class="heading">
+        <h3>
+          <span class="http_method">
+          <a class="toggleOperation">post</a>
+          </span>
+          <span class="path">
+          <a class="toggleOperation ">/registration</a>
+          </span>
+        </h3>
+        <ul class="options">
+          <li>
+          <a class="toggleOperation"><span class="markdown"><p>registration</p>
+</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="user-controller_registrationUsingPOST_content" style="">
+
+
+        <form accept-charset="UTF-8" class="sandbox">
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Parameters</h4>
+          <table class="fullwidth parameters">
+          <thead>
+            <tr>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter</th>
+            <th style="width: 310px; max-width: 310px" data-sw-translate="">Value</th>
+            <th style="width: 200px; max-width: 200px" data-sw-translate="">Description</th>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter Type</th>
+            <th style="width: 220px; max-width: 230px" data-sw-translate="">Data Type</th>
+            </tr>
+          </thead>
+          <tbody class="operation-params">
+
+          <tr><td class="code required"><label for="muser0.7642205514087899">user</label></td>
+<td>
+				<textarea class="body-textarea required" placeholder="(required)" name="user" id="muser0.7642205514087899"></textarea>
+				<div class="editor_holder"></div>
+				<br>
+				<div class="parameter-content-type"><div><label for="pct0.22619384170150592" data-sw-translate="">Parameter content type:</label>
+<select name="parameterContentType" id="pct0.22619384170150592">
+  <option value="application/json">application/json</option>
+</select>
+</div></div>
+</td>
+<td>
+	<strong><span class="markdown"><p>user</p>
+</span></strong>
+</td>
+<td>body</td>
+<td><span class="model-signature"><div>
+<div>
+<ul class="signature-nav">
+  <li><a class="description-link" data-sw-translate="">Model</a></li>
+  <li><a class="snippet-link selected" data-sw-translate="">Example Value</a></li>
+</ul>
+<div>
+
+<div class="signature-container">
+  <div class="description" style="display: none;">
+      <span class="strong">User {</span><div><span class="propName ">birthdate</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">department</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">email</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">fatherLastname</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">id</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">motherLastname</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">name</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">password</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">role</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">username</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>)</div><span class="strong">}</span>
+  </div>
+
+  <div class="snippet" style="display: block;">
+      <div class="snippet_json" style="display: block;">
+        <pre><code class="hljs json">{
+  "<span class="hljs-attr">birthdate</span>": <span class="hljs-string">"2018-11-28T22:39:01.181Z"</span>,
+  "<span class="hljs-attr">department</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">email</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">fatherLastname</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">id</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">motherLastname</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">name</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">password</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">role</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">username</span>": <span class="hljs-string">"string"</span>
+}</code></pre>
+        <small class="notice" data-sw-translate=""></small>
+      </div>
+  </div>
+</div>
+</div></div></div></span></td>
+</tr></tbody>
+          </table>
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Response Messages</h4>
+          <table class="fullwidth response-messages">
+            <thead>
+            <tr>
+              <th data-sw-translate="">HTTP Status Code</th>
+              <th data-sw-translate="">Reason</th>
+              <th data-sw-translate="">Response Model</th>
+              <th data-sw-translate="">Headers</th>
+            </tr>
+            </thead>
+            <tbody class="operation-status">
+            <tr><td width="15%" class="code">201</td>
+<td class="markdown"><p>Created</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">401</td>
+<td class="markdown"><p>Unauthorized</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">403</td>
+<td class="markdown"><p>Forbidden</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">404</td>
+<td class="markdown"><p>Not Found</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr></tbody>
+          </table>
+          <div class="sandbox_header">
+            <input class="submit" type="submit" value="Try it out!" data-sw-translate="">
+            <a class="response_hider" style="" data-sw-translate="">Hide Response</a>
+            <span class="response_throbber" style="display: none;"></span>
+          </div>
+        </form>
+        <div class="response" style="">
+          <h4 class="curl">Curl</h4>
+          <div class="block curl"><pre>curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ \ 
+   "birthdate": "2018-11-28T22:39:01.181Z", \ 
+   "department": "string", \ 
+   "email": "string", \ 
+   "fatherLastname": "string", \ 
+   "id": "string", \ 
+   "motherLastname": "string", \ 
+   "name": "string", \ 
+   "password": "string", \ 
+   "role": "string", \ 
+   "username": "string" \ 
+ }' 'http://localhost:8085/registration'</pre></div>
+          <h4 data-sw-translate="">Request URL</h4>
+          <div class="block request_url"><pre>http://localhost:8085/registration</pre></div>
+          <h4 data-sw-translate="">Request Headers</h4>
+          <div class="block request_headers"><pre>{<br>  "Accept": "*/*"<br>}</pre></div>
+          <h4 data-sw-translate="">Response Body</h4>
+          <div class="block response_body hljs json"><pre class="json"><code>{
+  "<span class="hljs-attr">timestamp</span>": <span class="hljs-number">1543444928327</span>,
+  "<span class="hljs-attr">status</span>": <span class="hljs-number">400</span>,
+  "<span class="hljs-attr">error</span>": <span class="hljs-string">"Bad Request"</span>,
+  "<span class="hljs-attr">exception</span>": <span class="hljs-string">"org.springframework.web.bind.MethodArgumentNotValidException"</span>,
+  "<span class="hljs-attr">errors</span>": [
+    {
+      "<span class="hljs-attr">codes</span>": [
+        <span class="hljs-string">"Email.user.email"</span>,
+        <span class="hljs-string">"Email.email"</span>,
+        <span class="hljs-string">"Email.java.lang.String"</span>,
+        <span class="hljs-string">"Email"</span>
+      ],
+      "<span class="hljs-attr">arguments</span>": [
+        {
+          "<span class="hljs-attr">codes</span>": [
+            <span class="hljs-string">"user.email"</span>,
+            <span class="hljs-string">"email"</span>
+          ],
+          "<span class="hljs-attr">arguments</span>": <span class="hljs-literal">null</span>,
+          "<span class="hljs-attr">defaultMessage</span>": <span class="hljs-string">"email"</span>,
+          "<span class="hljs-attr">code</span>": <span class="hljs-string">"email"</span>
+        },
+        [],
+        {
+          "<span class="hljs-attr">defaultMessage</span>": <span class="hljs-string">".*"</span>,
+          "<span class="hljs-attr">arguments</span>": <span class="hljs-literal">null</span>,
+          "<span class="hljs-attr">codes</span>": [
+            <span class="hljs-string">".*"</span>
+          ]
+        }
+      ],
+      "<span class="hljs-attr">defaultMessage</span>": <span class="hljs-string">"no es una dirección de correo bien formada"</span>,
+      "<span class="hljs-attr">objectName</span>": <span class="hljs-string">"user"</span>,
+      "<span class="hljs-attr">field</span>": <span class="hljs-string">"email"</span>,
+      "<span class="hljs-attr">rejectedValue</span>": <span class="hljs-string">"string"</span>,
+      "<span class="hljs-attr">bindingFailure</span>": <span class="hljs-literal">false</span>,
+      "<span class="hljs-attr">code</span>": <span class="hljs-string">"Email"</span>
+    }
+  ],
+  "<span class="hljs-attr">message</span>": <span class="hljs-string">"Validation failed for object='user'. Error count: 1"</span>,
+  "<span class="hljs-attr">path</span>": <span class="hljs-string">"/registration"</span>
+}</code></pre></div>
+          <h4 data-sw-translate="">Response Code</h4>
+          <div class="block response_code"><pre>400</pre></div>
+          <h4 data-sw-translate="">Response Headers</h4>
+          <div class="block response_headers"><pre>{<br>  "date": "Wed, 28 Nov 2018 22:42:08 GMT",<br>  "connection": "close",<br>  "transfer-encoding": "chunked",<br>  "content-type": "application/json;charset=UTF-8"<br>}</pre></div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</li><li class="endpoint">  <ul class="operations">
+    <li class="post operation" id="user-controller_generateUsingPOST">
+      <div class="heading">
+        <h3>
+          <span class="http_method">
+          <a class="toggleOperation">post</a>
+          </span>
+          <span class="path">
+          <a class="toggleOperation ">/user</a>
+          </span>
+        </h3>
+        <ul class="options">
+          <li>
+          <a class="toggleOperation"><span class="markdown"><p>generate</p>
+</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="user-controller_generateUsingPOST_content" style="">
+
+
+        <form accept-charset="UTF-8" class="sandbox">
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Parameters</h4>
+          <table class="fullwidth parameters">
+          <thead>
+            <tr>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter</th>
+            <th style="width: 310px; max-width: 310px" data-sw-translate="">Value</th>
+            <th style="width: 200px; max-width: 200px" data-sw-translate="">Description</th>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter Type</th>
+            <th style="width: 220px; max-width: 230px" data-sw-translate="">Data Type</th>
+            </tr>
+          </thead>
+          <tbody class="operation-params">
+
+          <tr><td class="code required"><label for="muser0.8590881451783525">user</label></td>
+<td>
+				<textarea class="body-textarea required" placeholder="(required)" name="user" id="muser0.8590881451783525"></textarea>
+				<div class="editor_holder"></div>
+				<br>
+				<div class="parameter-content-type"><div><label for="pct0.8840905795413725" data-sw-translate="">Parameter content type:</label>
+<select name="parameterContentType" id="pct0.8840905795413725">
+  <option value="application/json">application/json</option>
+</select>
+</div></div>
+</td>
+<td>
+	<strong><span class="markdown"><p>user</p>
+</span></strong>
+</td>
+<td>body</td>
+<td><span class="model-signature"><div>
+<div>
+<ul class="signature-nav">
+  <li><a class="description-link" data-sw-translate="">Model</a></li>
+  <li><a class="snippet-link selected" data-sw-translate="">Example Value</a></li>
+</ul>
+<div>
+
+<div class="signature-container">
+  <div class="description" style="display: none;">
+      <span class="strong">User {</span><div><span class="propName ">birthdate</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">department</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">email</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">fatherLastname</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">id</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">motherLastname</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">name</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">password</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">role</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">username</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>)</div><span class="strong">}</span>
+  </div>
+
+  <div class="snippet" style="display: block;">
+      <div class="snippet_json" style="display: block;">
+        <pre><code class="hljs json">{
+  "<span class="hljs-attr">birthdate</span>": <span class="hljs-string">"2018-11-28T22:39:01.244Z"</span>,
+  "<span class="hljs-attr">department</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">email</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">fatherLastname</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">id</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">motherLastname</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">name</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">password</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">role</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">username</span>": <span class="hljs-string">"string"</span>
+}</code></pre>
+        <small class="notice" data-sw-translate=""></small>
+      </div>
+  </div>
+</div>
+</div></div></div></span></td>
+</tr></tbody>
+          </table>
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Response Messages</h4>
+          <table class="fullwidth response-messages">
+            <thead>
+            <tr>
+              <th data-sw-translate="">HTTP Status Code</th>
+              <th data-sw-translate="">Reason</th>
+              <th data-sw-translate="">Response Model</th>
+              <th data-sw-translate="">Headers</th>
+            </tr>
+            </thead>
+            <tbody class="operation-status">
+            <tr><td width="15%" class="code">201</td>
+<td class="markdown"><p>Created</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">401</td>
+<td class="markdown"><p>Unauthorized</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">403</td>
+<td class="markdown"><p>Forbidden</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">404</td>
+<td class="markdown"><p>Not Found</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr></tbody>
+          </table>
+          <div class="sandbox_header">
+            <input class="submit" type="submit" value="Try it out!" data-sw-translate="">
+            <a class="response_hider" style="" data-sw-translate="">Hide Response</a>
+            <span class="response_throbber" style="display: none;"></span>
+          </div>
+        </form>
+        <div class="response" style="">
+          <h4 class="curl">Curl</h4>
+          <div class="block curl"><pre>curl -X POST --header 'Content-Type: application/json' --header 'Accept: */*' -d '{ \ 
+   "birthdate": "2018-11-28T22:39:01.244Z", \ 
+   "department": "string", \ 
+   "email": "string", \ 
+   "fatherLastname": "string", \ 
+   "id": "string", \ 
+   "motherLastname": "string", \ 
+   "name": "string", \ 
+   "password": "string", \ 
+   "role": "string", \ 
+   "username": "string" \ 
+ }' 'http://localhost:8085/user'</pre></div>
+          <h4 data-sw-translate="">Request URL</h4>
+          <div class="block request_url"><pre>http://localhost:8085/user</pre></div>
+          <h4 data-sw-translate="">Request Headers</h4>
+          <div class="block request_headers"><pre>{<br>  "Accept": "*/*"<br>}</pre></div>
+          <h4 data-sw-translate="">Response Body</h4>
+          <div class="block response_body hljs"><pre class="json"><code>no content</code></pre></div>
+          <h4 data-sw-translate="">Response Code</h4>
+          <div class="block response_code"><pre>201</pre></div>
+          <h4 data-sw-translate="">Response Headers</h4>
+          <div class="block response_headers"><pre>{<br>  "date": "Wed, 28 Nov 2018 22:41:40 GMT",<br>  "content-length": "0",<br>  "content-type": null<br>}</pre></div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</li><li class="endpoint">  <ul class="operations">
+    <li class="put operation" id="user-controller_editUserUsingPUT">
+      <div class="heading">
+        <h3>
+          <span class="http_method">
+          <a class="toggleOperation">put</a>
+          </span>
+          <span class="path">
+          <a class="toggleOperation ">/user</a>
+          </span>
+        </h3>
+        <ul class="options">
+          <li>
+          <a class="toggleOperation"><span class="markdown"><p>editUser</p>
+</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="user-controller_editUserUsingPUT_content" style="">
+
+
+        <form accept-charset="UTF-8" class="sandbox">
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Parameters</h4>
+          <table class="fullwidth parameters">
+          <thead>
+            <tr>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter</th>
+            <th style="width: 310px; max-width: 310px" data-sw-translate="">Value</th>
+            <th style="width: 200px; max-width: 200px" data-sw-translate="">Description</th>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter Type</th>
+            <th style="width: 220px; max-width: 230px" data-sw-translate="">Data Type</th>
+            </tr>
+          </thead>
+          <tbody class="operation-params">
+
+          <tr><td class="code required"><label for="muser0.6355276355359589">user</label></td>
+<td>
+				<textarea class="body-textarea required" placeholder="(required)" name="user" id="muser0.6355276355359589"></textarea>
+				<div class="editor_holder"></div>
+				<br>
+				<div class="parameter-content-type"><div><label for="pct0.20269008590075055" data-sw-translate="">Parameter content type:</label>
+<select name="parameterContentType" id="pct0.20269008590075055">
+  <option value="application/json">application/json</option>
+</select>
+</div></div>
+</td>
+<td>
+	<strong><span class="markdown"><p>user</p>
+</span></strong>
+</td>
+<td>body</td>
+<td><span class="model-signature"><div>
+<div>
+<ul class="signature-nav">
+  <li><a class="description-link" data-sw-translate="">Model</a></li>
+  <li><a class="snippet-link selected" data-sw-translate="">Example Value</a></li>
+</ul>
+<div>
+
+<div class="signature-container">
+  <div class="description" style="display: none;">
+      <span class="strong">User {</span><div><span class="propName ">birthdate</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">department</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">email</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">fatherLastname</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">id</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">motherLastname</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">name</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">password</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">role</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">username</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>)</div><span class="strong">}</span>
+  </div>
+
+  <div class="snippet" style="display: block;">
+      <div class="snippet_json" style="display: block;">
+        <pre><code class="hljs json">{
+  "<span class="hljs-attr">birthdate</span>": <span class="hljs-string">"2018-11-28T22:39:01.307Z"</span>,
+  "<span class="hljs-attr">department</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">email</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">fatherLastname</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">id</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">motherLastname</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">name</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">password</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">role</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">username</span>": <span class="hljs-string">"string"</span>
+}</code></pre>
+        <small class="notice" data-sw-translate=""></small>
+      </div>
+  </div>
+</div>
+</div></div></div></span></td>
+</tr></tbody>
+          </table>
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Response Messages</h4>
+          <table class="fullwidth response-messages">
+            <thead>
+            <tr>
+              <th data-sw-translate="">HTTP Status Code</th>
+              <th data-sw-translate="">Reason</th>
+              <th data-sw-translate="">Response Model</th>
+              <th data-sw-translate="">Headers</th>
+            </tr>
+            </thead>
+            <tbody class="operation-status">
+            <tr><td width="15%" class="code">200</td>
+<td class="markdown"><p>OK</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">201</td>
+<td class="markdown"><p>Created</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">401</td>
+<td class="markdown"><p>Unauthorized</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">403</td>
+<td class="markdown"><p>Forbidden</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">404</td>
+<td class="markdown"><p>Not Found</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr></tbody>
+          </table>
+          <div class="sandbox_header">
+            <input class="submit" type="submit" value="Try it out!" data-sw-translate="">
+            <a class="response_hider" style="" data-sw-translate="">Hide Response</a>
+            <span class="response_throbber" style="display: none;"></span>
+          </div>
+        </form>
+        <div class="response" style="">
+          <h4 class="curl">Curl</h4>
+          <div class="block curl"><pre>curl -X PUT --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ \ 
+   "birthdate": "2018-11-28T22:39:01.307Z", \ 
+   "department": "string", \ 
+   "email": "string", \ 
+   "fatherLastname": "string", \ 
+   "id": "string", \ 
+   "motherLastname": "string", \ 
+   "name": "string", \ 
+   "password": "string", \ 
+   "role": "string", \ 
+   "username": "string" \ 
+ }' 'http://localhost:8085/user'</pre></div>
+          <h4 data-sw-translate="">Request URL</h4>
+          <div class="block request_url"><pre>http://localhost:8085/user</pre></div>
+          <h4 data-sw-translate="">Request Headers</h4>
+          <div class="block request_headers"><pre>{<br>  "Accept": "*/*"<br>}</pre></div>
+          <h4 data-sw-translate="">Response Body</h4>
+          <div class="block response_body hljs json"><pre class="json"><code>{
+  "<span class="hljs-attr">timestamp</span>": <span class="hljs-number">1543445083824</span>,
+  "<span class="hljs-attr">status</span>": <span class="hljs-number">400</span>,
+  "<span class="hljs-attr">error</span>": <span class="hljs-string">"Bad Request"</span>,
+  "<span class="hljs-attr">exception</span>": <span class="hljs-string">"org.springframework.web.bind.MethodArgumentNotValidException"</span>,
+  "<span class="hljs-attr">errors</span>": [
+    {
+      "<span class="hljs-attr">codes</span>": [
+        <span class="hljs-string">"Email.user.email"</span>,
+        <span class="hljs-string">"Email.email"</span>,
+        <span class="hljs-string">"Email.java.lang.String"</span>,
+        <span class="hljs-string">"Email"</span>
+      ],
+      "<span class="hljs-attr">arguments</span>": [
+        {
+          "<span class="hljs-attr">codes</span>": [
+            <span class="hljs-string">"user.email"</span>,
+            <span class="hljs-string">"email"</span>
+          ],
+          "<span class="hljs-attr">arguments</span>": <span class="hljs-literal">null</span>,
+          "<span class="hljs-attr">defaultMessage</span>": <span class="hljs-string">"email"</span>,
+          "<span class="hljs-attr">code</span>": <span class="hljs-string">"email"</span>
+        },
+        [],
+        {
+          "<span class="hljs-attr">defaultMessage</span>": <span class="hljs-string">".*"</span>,
+          "<span class="hljs-attr">arguments</span>": <span class="hljs-literal">null</span>,
+          "<span class="hljs-attr">codes</span>": [
+            <span class="hljs-string">".*"</span>
+          ]
+        }
+      ],
+      "<span class="hljs-attr">defaultMessage</span>": <span class="hljs-string">"no es una dirección de correo bien formada"</span>,
+      "<span class="hljs-attr">objectName</span>": <span class="hljs-string">"user"</span>,
+      "<span class="hljs-attr">field</span>": <span class="hljs-string">"email"</span>,
+      "<span class="hljs-attr">rejectedValue</span>": <span class="hljs-string">"string"</span>,
+      "<span class="hljs-attr">bindingFailure</span>": <span class="hljs-literal">false</span>,
+      "<span class="hljs-attr">code</span>": <span class="hljs-string">"Email"</span>
+    }
+  ],
+  "<span class="hljs-attr">message</span>": <span class="hljs-string">"Validation failed for object='user'. Error count: 1"</span>,
+  "<span class="hljs-attr">path</span>": <span class="hljs-string">"/user"</span>
+}</code></pre></div>
+          <h4 data-sw-translate="">Response Code</h4>
+          <div class="block response_code"><pre>400</pre></div>
+          <h4 data-sw-translate="">Response Headers</h4>
+          <div class="block response_headers"><pre>{<br>  "date": "Wed, 28 Nov 2018 22:44:43 GMT",<br>  "connection": "close",<br>  "transfer-encoding": "chunked",<br>  "content-type": "application/json;charset=UTF-8"<br>}</pre></div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</li><li class="endpoint">  <ul class="operations">
+    <li class="delete operation" id="user-controller_deleteUserUsingDELETE">
+      <div class="heading">
+        <h3>
+          <span class="http_method">
+          <a class="toggleOperation">delete</a>
+          </span>
+          <span class="path">
+          <a class="toggleOperation ">/user/{id}</a>
+          </span>
+        </h3>
+        <ul class="options">
+          <li>
+          <a class="toggleOperation"><span class="markdown"><p>deleteUser</p>
+</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="user-controller_deleteUserUsingDELETE_content" style="">
+
+
+        <form accept-charset="UTF-8" class="sandbox">
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Parameters</h4>
+          <table class="fullwidth parameters">
+          <thead>
+            <tr>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter</th>
+            <th style="width: 310px; max-width: 310px" data-sw-translate="">Value</th>
+            <th style="width: 200px; max-width: 200px" data-sw-translate="">Description</th>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter Type</th>
+            <th style="width: 220px; max-width: 230px" data-sw-translate="">Data Type</th>
+            </tr>
+          </thead>
+          <tbody class="operation-params">
+
+          <tr><td class="code required"><label for="mid0.08972160459961764">id</label></td>
+<td>
+<input class="parameter required" minlength="1" name="id" placeholder="(required)" id="mid0.08972160459961764" type="text" value=""></td>
+<td>
+	<strong><span class="markdown"><p>id</p>
+</span></strong>
+</td>
+<td>path</td>
+<td><span class="model-signature">string</span></td>
+</tr></tbody>
+          </table>
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Response Messages</h4>
+          <table class="fullwidth response-messages">
+            <thead>
+            <tr>
+              <th data-sw-translate="">HTTP Status Code</th>
+              <th data-sw-translate="">Reason</th>
+              <th data-sw-translate="">Response Model</th>
+              <th data-sw-translate="">Headers</th>
+            </tr>
+            </thead>
+            <tbody class="operation-status">
+            <tr><td width="15%" class="code">204</td>
+<td class="markdown"><p>No Content</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">401</td>
+<td class="markdown"><p>Unauthorized</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">403</td>
+<td class="markdown"><p>Forbidden</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr></tbody>
+          </table>
+          <div class="sandbox_header">
+            <input class="submit" type="submit" value="Try it out!" data-sw-translate="">
+            <a class="response_hider" style="" data-sw-translate="">Hide Response</a>
+            <span class="response_throbber" style="display: none;"></span>
+          </div>
+        </form>
+        <div class="response" style="">
+          <h4 class="curl">Curl</h4>
+          <div class="block curl"><pre>curl -X DELETE --header 'Accept: */*' 'http://localhost:8085/user/string'</pre></div>
+          <h4 data-sw-translate="">Request URL</h4>
+          <div class="block request_url"><pre>http://localhost:8085/user/string</pre></div>
+          <h4 data-sw-translate="">Request Headers</h4>
+          <div class="block request_headers"><pre>{<br>  "Accept": "*/*"<br>}</pre></div>
+          <h4 data-sw-translate="">Response Body</h4>
+          <div class="block response_body hljs"><pre class="json"><code>no content</code></pre></div>
+          <h4 data-sw-translate="">Response Code</h4>
+          <div class="block response_code"><pre>204</pre></div>
+          <h4 data-sw-translate="">Response Headers</h4>
+          <div class="block response_headers"><pre>{<br>  "date": "Wed, 28 Nov 2018 22:44:53 GMT",<br>  "content-type": null<br>}</pre></div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</li><li class="endpoint">  <ul class="operations">
+    <li class="get operation" id="user-controller_getUserUsingGET">
+      <div class="heading">
+        <h3>
+          <span class="http_method">
+          <a class="toggleOperation">get</a>
+          </span>
+          <span class="path">
+          <a class="toggleOperation ">/user/{id}</a>
+          </span>
+        </h3>
+        <ul class="options">
+          <li>
+          <a class="toggleOperation"><span class="markdown"><p>getUser</p>
+</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="content" id="user-controller_getUserUsingGET_content" style="">
+          <div class="response-class">
+            <h4><span data-sw-translate="">Response Class</span> (<span data-sw-translate="">Status</span> 200)</h4>
+              <div class="markdown"><p>OK</p>
+</div>
+            <p><span class="model-signature"><div>
+<div>
+<ul class="signature-nav">
+  <li><a class="description-link" data-sw-translate="">Model</a></li>
+  <li><a class="snippet-link selected" data-sw-translate="">Example Value</a></li>
+</ul>
+<div>
+
+<div class="signature-container">
+  <div class="description" style="display: none;">
+      <span class="strong">User {</span><div><span class="propName ">birthdate</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">department</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">email</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">fatherLastname</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">id</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">motherLastname</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">name</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">password</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">role</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>),</div><div><span class="propName ">username</span> (<span class="propType">string</span>, <span class="propOptKey">optional</span>)</div><span class="strong">}</span>
+  </div>
+
+  <div class="snippet" style="display: block;">
+      <div class="snippet_json" style="display: block;">
+        <pre><code class="hljs json">{
+  "<span class="hljs-attr">birthdate</span>": <span class="hljs-string">"2018-11-28T22:39:01.342Z"</span>,
+  "<span class="hljs-attr">department</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">email</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">fatherLastname</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">id</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">motherLastname</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">name</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">password</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">role</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">username</span>": <span class="hljs-string">"string"</span>
+}</code></pre>
+        
+      </div>
+  </div>
+</div>
+</div></div></div></span></p>
+            <br>
+            <div class="response-content-type"><div><label data-sw-translate="" for="rct0.5949921940873959">Response Content Type</label>
+<select name="responseContentType" id="rct0.5949921940873959">
+  <option value="*/*">*/*</option>
+</select>
+</div></div>
+            </div>
+
+
+        <form accept-charset="UTF-8" class="sandbox">
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Parameters</h4>
+          <table class="fullwidth parameters">
+          <thead>
+            <tr>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter</th>
+            <th style="width: 310px; max-width: 310px" data-sw-translate="">Value</th>
+            <th style="width: 200px; max-width: 200px" data-sw-translate="">Description</th>
+            <th style="width: 100px; max-width: 100px" data-sw-translate="">Parameter Type</th>
+            <th style="width: 220px; max-width: 230px" data-sw-translate="">Data Type</th>
+            </tr>
+          </thead>
+          <tbody class="operation-params">
+
+          <tr><td class="code required"><label for="mid0.6794257116345428">id</label></td>
+<td>
+<input class="parameter required" minlength="1" name="id" placeholder="(required)" id="mid0.6794257116345428" type="text" value=""></td>
+<td>
+	<strong><span class="markdown"><p>id</p>
+</span></strong>
+</td>
+<td>path</td>
+<td><span class="model-signature">string</span></td>
+</tr></tbody>
+          </table>
+          <div style="margin:0;padding:0;display:inline"></div>
+          <h4 data-sw-translate="">Response Messages</h4>
+          <table class="fullwidth response-messages">
+            <thead>
+            <tr>
+              <th data-sw-translate="">HTTP Status Code</th>
+              <th data-sw-translate="">Reason</th>
+              <th data-sw-translate="">Response Model</th>
+              <th data-sw-translate="">Headers</th>
+            </tr>
+            </thead>
+            <tbody class="operation-status">
+            <tr><td width="15%" class="code">401</td>
+<td class="markdown"><p>Unauthorized</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">403</td>
+<td class="markdown"><p>Forbidden</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr><tr><td width="15%" class="code">404</td>
+<td class="markdown"><p>Not Found</p>
+</td>
+<td width="50%"><span class="model-signature"><div>    
+</div></span></td>
+<td class="headers">
+  <table>
+    <tbody>
+    </tbody>
+  </table>
+</td></tr></tbody>
+          </table>
+          <div class="sandbox_header">
+            <input class="submit" type="submit" value="Try it out!" data-sw-translate="">
+            <a class="response_hider" style="" data-sw-translate="">Hide Response</a>
+            <span class="response_throbber" style="display: none;"></span>
+          </div>
+        </form>
+        <div class="response" style="">
+          <h4 class="curl">Curl</h4>
+          <div class="block curl"><pre>curl -X GET --header 'Accept: application/json' 'http://localhost:8085/user/string'</pre></div>
+          <h4 data-sw-translate="">Request URL</h4>
+          <div class="block request_url"><pre>http://localhost:8085/user/string</pre></div>
+          <h4 data-sw-translate="">Request Headers</h4>
+          <div class="block request_headers"><pre>{<br>  "Accept": "*/*"<br>}</pre></div>
+          <h4 data-sw-translate="">Response Body</h4>
+          <div class="block response_body hljs json"><pre class="json"><code>{
+  "<span class="hljs-attr">id</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">name</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">fatherLastname</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">motherLastname</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">birthdate</span>": <span class="hljs-number">1543444741244</span>,
+  "<span class="hljs-attr">email</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">username</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">password</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">role</span>": <span class="hljs-string">"string"</span>,
+  "<span class="hljs-attr">department</span>": <span class="hljs-string">"string"</span>
+}</code></pre></div>
+          <h4 data-sw-translate="">Response Code</h4>
+          <div class="block response_code"><pre>200</pre></div>
+          <h4 data-sw-translate="">Response Headers</h4>
+          <div class="block response_headers"><pre>{<br>  "date": "Wed, 28 Nov 2018 22:44:18 GMT",<br>  "transfer-encoding": "chunked",<br>  "content-type": "application/json;charset=UTF-8"<br>}</pre></div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</li></ul>
+</li></ul>
+
+  <div class="footer">
+    <h4 style="color: #999">[ <span style="font-variant: small-caps">base url</span>: /
+  , <span style="font-variant: small-caps" data-sw-translate="">api version</span>: 1.0.0
+    ]
+    </h4>
+    </div>
+</div>
+</div>
+
+
+</body></html>
